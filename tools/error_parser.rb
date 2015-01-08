@@ -64,7 +64,10 @@ def print_report(errors_count_map, error_msgs_map, file_path)
   puts "# parsed errors report from #{file_path} (size: #{File.size(file_path)})\n\n"
   puts "\n"
 
-  longest_type = 0; longest_count = 0; total = 0
+  error_label = ''
+  count_label = 'Count'
+
+  longest_type = error_label.size; longest_count = count_label.size; total = 0
   errors_count_map.each do |type, count|
     if longest_type < type.length
       longest_type = type.length
@@ -75,12 +78,14 @@ def print_report(errors_count_map, error_msgs_map, file_path)
     total += count
   end
 
+  puts "| #{''.rjust(longest_type + 1, ' ')} | #{count_label.rjust(longest_count, ' ')} |"
+  puts "| #{''.rjust(longest_type + 1, '-')} | #{'-'.rjust(longest_count, '-')} |"
+
   errors_count_map.each do |type, count|
-    puts "#{type.rjust(longest_type + 1)} #{count.to_s.rjust(longest_count)}"
+    puts "| #{type.rjust(longest_type + 1)} | #{count.to_s.rjust(longest_count)} |"
   end
 
-  puts "#{''.rjust(longest_type + 1, '-')}--#{''.rjust(longest_count, '-')}"
-  puts "#{'TOTAL'.rjust(longest_type + 1)} #{total.to_s.rjust(longest_count)}"
+  puts "| #{'TOTAL'.rjust(longest_type + 1)} | #{total.to_s.rjust(longest_count)} |"
 
   puts "\n\n"; i = 0
   error_msgs_map.each do |type, messages|
