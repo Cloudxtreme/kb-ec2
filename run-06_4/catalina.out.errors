@@ -1,0 +1,1042 @@
+# parsed errors report from /mnt/root/kb-log.tmp/run-06_4/catalina.out (size: 77646740)
+
+
+|                                                                 | Count |
+| --------------------------------------------------------------- | ----- |
+|                                                          Errors |     6 |
+|            org.killbill.billing.payment.api.PaymentApiException |   398 |
+|  org.skife.jdbi.v2.exceptions.UnableToObtainConnectionException |    78 |
+|                                           java.sql.SQLException |    29 |
+|                     java.lang.reflect.InvocationTargetException |     5 |
+|                                                           TOTAL |   516 |
+
+
+
+
+1. Errors messages:
+
+  0 for jar:file:/var/lib/tomcat7/webapps/ROOT/WEB-INF/lib/killbill-payment-0.12.1.jar!/org/killbill/billing/payment/PaymentStates.xml
+  0 for jar:file:/var/lib/tomcat7/webapps/ROOT/WEB-INF/lib/killbill-payment-0.12.1.jar!/org/killbill/billing/payment/PaymentStates.xml
+  0 for jar:file:/var/lib/tomcat7/webapps/ROOT/WEB-INF/lib/killbill-payment-0.12.1.jar!/org/killbill/billing/payment/PaymentStates.xml
+  0 for jar:file:/var/lib/tomcat7/webapps/ROOT/WEB-INF/lib/killbill-payment-0.12.1.jar!/org/killbill/billing/payment/retry/RetryStates.xml
+  0 for NoOverdueConfig.xml
+  0 for file:/var/lib/tomcat7/webapps/ROOT/WEB-INF/classes/SpyCarBasic.xml
+
+
+2. org.killbill.billing.payment.api.PaymentApiException messages:
+
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.skife.jdbi.v2.exceptions.UnableToObtainConnectionException: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: org.skife.jdbi.v2.exceptions.UnableToObtainConnectionException: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.skife.jdbi.v2.exceptions.UnableToObtainConnectionException: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: org.skife.jdbi.v2.exceptions.UnableToObtainConnectionException: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.skife.jdbi.v2.exceptions.UnableToObtainConnectionException: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: org.skife.jdbi.v2.exceptions.UnableToObtainConnectionException: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.skife.jdbi.v2.exceptions.UnableToObtainConnectionException: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: org.skife.jdbi.v2.exceptions.UnableToObtainConnectionException: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.skife.jdbi.v2.exceptions.UnableToObtainConnectionException: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: org.skife.jdbi.v2.exceptions.UnableToObtainConnectionException: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.skife.jdbi.v2.exceptions.UnableToObtainConnectionException: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: org.skife.jdbi.v2.exceptions.UnableToObtainConnectionException: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.skife.jdbi.v2.exceptions.UnableToObtainConnectionException: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: org.skife.jdbi.v2.exceptions.UnableToObtainConnectionException: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+  Internal payment error : org.killbill.commons.locker.LockFailedException
+    Caused by: org.killbill.commons.locker.LockFailedException: null
+
+
+3. org.skife.jdbi.v2.exceptions.UnableToObtainConnectionException messages:
+
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+
+
+4. java.sql.SQLException messages:
+
+  Timeout of 10000ms encountered waiting for connection.
+  Timeout of 10000ms encountered waiting for connection.
+  Timeout of 10000ms encountered waiting for connection.
+  Timeout of 10000ms encountered waiting for connection.
+  Timeout of 10000ms encountered waiting for connection.
+  Timeout of 10000ms encountered waiting for connection.
+  Timeout of 10000ms encountered waiting for connection.
+  Timeout of 10000ms encountered waiting for connection.
+  Timeout of 10000ms encountered waiting for connection.
+  Timeout of 10000ms encountered waiting for connection.
+  Timeout of 10000ms encountered waiting for connection.
+  Timeout of 10000ms encountered waiting for connection.
+  Timeout of 10000ms encountered waiting for connection.
+  Timeout of 10000ms encountered waiting for connection.
+  Timeout of 10000ms encountered waiting for connection.
+  Timeout of 10000ms encountered waiting for connection.
+  Timeout of 10000ms encountered waiting for connection.
+  Timeout of 10000ms encountered waiting for connection.
+  Timeout of 10000ms encountered waiting for connection.
+  Timeout of 10000ms encountered waiting for connection.
+  Timeout of 10000ms encountered waiting for connection.
+  Timeout of 10000ms encountered waiting for connection.
+  Timeout of 10000ms encountered waiting for connection.
+  Timeout of 10000ms encountered waiting for connection.
+  Timeout of 10000ms encountered waiting for connection.
+  Timeout of 10000ms encountered waiting for connection.
+  Timeout of 10000ms encountered waiting for connection.
+  Timeout of 10000ms encountered waiting for connection.
+  Timeout of 10000ms encountered waiting for connection.
+
+
+5. java.lang.reflect.InvocationTargetException messages:
+
+  null
+    Caused by: org.skife.jdbi.v2.exceptions.UnableToObtainConnectionException: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  null
+    Caused by: org.skife.jdbi.v2.exceptions.UnableToObtainConnectionException: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  null
+    Caused by: org.skife.jdbi.v2.exceptions.UnableToObtainConnectionException: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  null
+    Caused by: org.skife.jdbi.v2.exceptions.UnableToObtainConnectionException: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+  null
+    Caused by: org.skife.jdbi.v2.exceptions.UnableToObtainConnectionException: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
+    Caused by: java.sql.SQLException: Timeout of 10000ms encountered waiting for connection.
