@@ -29,7 +29,20 @@
   
   **WiP** on the JRuby side
 
-- 
+#### plugin-thread
+
+- (osgi) plugin settings: dao.maxActive=50 threads.nb=50
+  * [run-07_5](run-07_5.md) 97097 |    7414 |   6757 |   50254 | 0.00000%
+
+- higher (unused) plugin thread count - decreases performance (response time)
+  * base (osgi) plugin settings: dao.maxActive=100 threads.nb=100
+  * [run-07_91](run-07_91.md)  106724 |    6741 |   6720 |   14439 | 0.00013% (connectionTimeout=5s)
+  * [run-07_92](run-07_92.md)  106719 |    6742 |   6720 |   17888 | 0.00008%
+  * [run-07_93](run-07_93.md)  106413 |    6761 |   6738 |   35088 | 0.00059% (threads.nb=75)
+  * [run-07_94](run-07_94.md)  100932 |    7128 |   7115 |   12372 | 0.00000% (dao.maxActive=50)
+  * [run-07_95](run-07_95.md)  106633 |    6747 |   6729 |   12342 | 0.00023% (dao.maxActive=80)
+  * [run-07_96](run-07_96.md)  107073 |    6719 |   6696 |   14805 | 0.00003% (dao.maxActive=50 threads.nb=80)
+  
   
 ### slowness
 
