@@ -1,0 +1,1191 @@
+2015/01/15 06:25:20 INFO  - jmeter.util.JMeterUtils: Setting Locale to en_US 
+2015/01/15 06:25:20 INFO  - jmeter.JMeter: Loading user properties from: /home/ubuntu/apache-jmeter-2.12/bin/user.properties 
+2015/01/15 06:25:20 INFO  - jmeter.JMeter: Loading system properties from: /home/ubuntu/apache-jmeter-2.12/bin/system.properties 
+2015/01/15 06:25:20 INFO  - jmeter.JMeter: Copyright (c) 1998-2014 The Apache Software Foundation 
+2015/01/15 06:25:20 INFO  - jmeter.JMeter: Version 2.12 r1636949 
+2015/01/15 06:25:20 INFO  - jmeter.JMeter: java.version=1.7.0_65 
+2015/01/15 06:25:20 INFO  - jmeter.JMeter: java.vm.name=OpenJDK 64-Bit Server VM 
+2015/01/15 06:25:20 INFO  - jmeter.JMeter: os.name=Linux 
+2015/01/15 06:25:20 INFO  - jmeter.JMeter: os.arch=amd64 
+2015/01/15 06:25:20 INFO  - jmeter.JMeter: os.version=3.13.0-36-generic 
+2015/01/15 06:25:20 INFO  - jmeter.JMeter: file.encoding=UTF-8 
+2015/01/15 06:25:20 INFO  - jmeter.JMeter: Default Locale=English (United States) 
+2015/01/15 06:25:20 INFO  - jmeter.JMeter: JMeter  Locale=English (United States) 
+2015/01/15 06:25:20 INFO  - jmeter.JMeter: JMeterHome=/home/ubuntu/apache-jmeter-2.12 
+2015/01/15 06:25:20 INFO  - jmeter.JMeter: user.dir  =/home/ubuntu/run-07_9 
+2015/01/15 06:25:20 INFO  - jmeter.JMeter: PWD       =/home/ubuntu/run-07_9 
+2015/01/15 06:25:20 INFO  - jmeter.JMeter: IP: 172.31.29.74 Name: ip-172-31-29-74 FullName: ip-172-31-29-74.us-west-2.compute.internal 
+2015/01/15 06:25:20 INFO  - jmeter.services.FileServer: Default base='/home/ubuntu/run-07_9' 
+2015/01/15 06:25:20 INFO  - jmeter.services.FileServer: Set new base='/home/ubuntu/run-07_9' 
+2015/01/15 06:25:20 INFO  - jmeter.JMeter: Loading file: jmeter_2015-01-15-06:25:19.jmx 
+2015/01/15 06:25:21 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
+2015/01/15 06:25:21 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
+2015/01/15 06:25:21 INFO  - jmeter.save.SaveService: Using SaveService properties version 2.7 
+2015/01/15 06:25:21 INFO  - jmeter.save.SaveService: Using SaveService properties file version 1618048 
+2015/01/15 06:25:21 INFO  - jmeter.save.SaveService: All converter versions present and correct 
+2015/01/15 06:25:21 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Cannot find .className property for htmlParser, using default 
+2015/01/15 06:25:21 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/html is  
+2015/01/15 06:25:21 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xhtml+xml is  
+2015/01/15 06:25:21 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xml is  
+2015/01/15 06:25:21 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/xml is  
+2015/01/15 06:25:21 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
+2015/01/15 06:25:21 INFO  - jmeter.JMeter: Creating summariser <summary> 
+2015/01/15 06:25:21 INFO  - jmeter.engine.StandardJMeterEngine: Listeners will be started after enabling running version 
+2015/01/15 06:25:21 INFO  - jmeter.engine.StandardJMeterEngine: To revert to the earlier behaviour, define jmeterengine.startlistenerslater=false 
+2015/01/15 06:25:21 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2015/01/15 06:25:21 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [uuid] 
+2015/01/15 06:25:21 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [uuid] 
+2015/01/15 06:25:21 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
+2015/01/15 06:25:21 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
+2015/01/15 06:25:21 INFO  - jmeter.JMeter: Running test (1421303121933) 
+2015/01/15 06:25:21 INFO  - jmeter.engine.StandardJMeterEngine: Starting setUp thread groups 
+2015/01/15 06:25:21 INFO  - jmeter.engine.StandardJMeterEngine: Starting setUp ThreadGroup: 1 : tearDown Thread Group 
+2015/01/15 06:25:21 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group tearDown Thread Group. 
+2015/01/15 06:25:21 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2015/01/15 06:25:21 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2015/01/15 06:25:21 INFO  - jmeter.threads.JMeterThread: jmeterthread.startearlier=true (see jmeter.properties) 
+2015/01/15 06:25:21 INFO  - jmeter.threads.JMeterThread: Running PostProcessors in forward order 
+2015/01/15 06:25:21 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2015/01/15 06:25:21 INFO  - jmeter.engine.StandardJMeterEngine: Waiting for all setup thread groups to exit 
+2015/01/15 06:25:21 INFO  - jmeter.threads.JMeterThread: Thread started: tearDown Thread Group 1-1 
+2015/01/15 06:25:21 INFO  - jmeter.protocol.http.sampler.HTTPHCAbstractImpl: Local host = ip-172-31-29-74 
+2015/01/15 06:25:21 INFO  - jmeter.protocol.http.sampler.HTTPHC4Impl: HTTP request retry count = 0 
+2015/01/15 06:25:22 INFO  - jmeter.protocol.http.sampler.HTTPHC4Impl: Setting up HTTPS TrustAll scheme 
+2015/01/15 06:25:22 INFO  - jmeter.util.JsseSSLManager: Using default SSL protocol: TLS 
+2015/01/15 06:25:22 INFO  - jmeter.util.JsseSSLManager: SSL session context: per-thread 
+2015/01/15 06:25:22 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
+2015/01/15 06:25:22 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
+2015/01/15 06:25:22 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
+2015/01/15 06:25:22 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
+2015/01/15 06:25:23 INFO  - jmeter.threads.JMeterThread: Thread is done: tearDown Thread Group 1-1 
+2015/01/15 06:25:23 INFO  - jmeter.threads.JMeterThread: Thread finished: tearDown Thread Group 1-1 
+2015/01/15 06:25:23 INFO  - jmeter.engine.StandardJMeterEngine: All Setup Threads have ended 
+2015/01/15 06:25:23 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : ThreadGroup 
+2015/01/15 06:25:23 INFO  - jmeter.engine.StandardJMeterEngine: Starting 50 threads for group ThreadGroup. 
+2015/01/15 06:25:23 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2015/01/15 06:25:23 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 50 ramp-up 25 perThread 500.0 delayedStart=true 
+2015/01/15 06:25:23 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2015/01/15 06:25:23 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2015/01/15 06:25:23 INFO  - jmeter.threads.JMeterThread: Thread started: ThreadGroup 1-1 
+2015/01/15 06:25:23 INFO  - jmeter.threads.JMeterThread: Thread started: ThreadGroup 1-2 
+2015/01/15 06:25:24 INFO  - jmeter.threads.JMeterThread: Thread started: ThreadGroup 1-3 
+2015/01/15 06:25:24 INFO  - jmeter.threads.JMeterThread: Thread started: ThreadGroup 1-4 
+2015/01/15 06:25:25 INFO  - jmeter.threads.JMeterThread: Thread started: ThreadGroup 1-5 
+2015/01/15 06:25:25 INFO  - jmeter.threads.JMeterThread: Thread started: ThreadGroup 1-6 
+2015/01/15 06:25:26 INFO  - jmeter.threads.JMeterThread: Thread started: ThreadGroup 1-7 
+2015/01/15 06:25:26 INFO  - jmeter.threads.JMeterThread: Thread started: ThreadGroup 1-8 
+2015/01/15 06:25:27 INFO  - jmeter.threads.JMeterThread: Thread started: ThreadGroup 1-9 
+2015/01/15 06:25:27 INFO  - jmeter.threads.JMeterThread: Thread started: ThreadGroup 1-10 
+2015/01/15 06:25:28 INFO  - jmeter.threads.JMeterThread: Thread started: ThreadGroup 1-11 
+2015/01/15 06:25:28 INFO  - jmeter.threads.JMeterThread: Thread started: ThreadGroup 1-12 
+2015/01/15 06:25:29 INFO  - jmeter.threads.JMeterThread: Thread started: ThreadGroup 1-13 
+2015/01/15 06:25:29 INFO  - jmeter.threads.JMeterThread: Thread started: ThreadGroup 1-14 
+2015/01/15 06:25:30 INFO  - jmeter.reporters.Summariser: summary +     19 in   7.5s =    2.5/s Avg:   921 Min:    77 Max:  2675 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0 
+2015/01/15 06:25:30 INFO  - jmeter.threads.JMeterThread: Thread started: ThreadGroup 1-15 
+2015/01/15 06:25:30 INFO  - jmeter.threads.JMeterThread: Thread started: ThreadGroup 1-16 
+2015/01/15 06:25:31 INFO  - jmeter.threads.JMeterThread: Thread started: ThreadGroup 1-17 
+2015/01/15 06:25:31 INFO  - jmeter.threads.JMeterThread: Thread started: ThreadGroup 1-18 
+2015/01/15 06:25:32 INFO  - jmeter.threads.JMeterThread: Thread started: ThreadGroup 1-19 
+2015/01/15 06:25:32 INFO  - jmeter.threads.JMeterThread: Thread started: ThreadGroup 1-20 
+2015/01/15 06:25:33 INFO  - jmeter.threads.JMeterThread: Thread started: ThreadGroup 1-21 
+2015/01/15 06:25:33 INFO  - jmeter.threads.JMeterThread: Thread started: ThreadGroup 1-22 
+2015/01/15 06:25:34 INFO  - jmeter.threads.JMeterThread: Thread started: ThreadGroup 1-23 
+2015/01/15 06:25:34 INFO  - jmeter.threads.JMeterThread: Thread started: ThreadGroup 1-24 
+2015/01/15 06:25:35 INFO  - jmeter.threads.JMeterThread: Thread started: ThreadGroup 1-25 
+2015/01/15 06:25:35 INFO  - jmeter.threads.JMeterThread: Thread started: ThreadGroup 1-26 
+2015/01/15 06:25:36 INFO  - jmeter.threads.JMeterThread: Thread started: ThreadGroup 1-27 
+2015/01/15 06:25:36 INFO  - jmeter.threads.JMeterThread: Thread started: ThreadGroup 1-28 
+2015/01/15 06:25:37 INFO  - jmeter.threads.JMeterThread: Thread started: ThreadGroup 1-29 
+2015/01/15 06:25:37 INFO  - jmeter.threads.JMeterThread: Thread started: ThreadGroup 1-30 
+2015/01/15 06:25:38 INFO  - jmeter.threads.JMeterThread: Thread started: ThreadGroup 1-31 
+2015/01/15 06:25:38 INFO  - jmeter.threads.JMeterThread: Thread started: ThreadGroup 1-32 
+2015/01/15 06:25:39 INFO  - jmeter.threads.JMeterThread: Thread started: ThreadGroup 1-33 
+2015/01/15 06:25:39 INFO  - jmeter.threads.JMeterThread: Thread started: ThreadGroup 1-34 
+2015/01/15 06:25:40 INFO  - jmeter.threads.JMeterThread: Thread started: ThreadGroup 1-35 
+2015/01/15 06:25:40 INFO  - jmeter.threads.JMeterThread: Thread started: ThreadGroup 1-36 
+2015/01/15 06:25:41 INFO  - jmeter.threads.JMeterThread: Thread started: ThreadGroup 1-37 
+2015/01/15 06:25:41 INFO  - jmeter.threads.JMeterThread: Thread started: ThreadGroup 1-38 
+2015/01/15 06:25:42 INFO  - jmeter.threads.JMeterThread: Thread started: ThreadGroup 1-39 
+2015/01/15 06:25:42 INFO  - jmeter.threads.JMeterThread: Thread started: ThreadGroup 1-40 
+2015/01/15 06:25:43 INFO  - jmeter.threads.JMeterThread: Thread started: ThreadGroup 1-41 
+2015/01/15 06:25:43 INFO  - jmeter.threads.JMeterThread: Thread started: ThreadGroup 1-42 
+2015/01/15 06:25:44 INFO  - jmeter.threads.JMeterThread: Thread started: ThreadGroup 1-43 
+2015/01/15 06:25:44 INFO  - jmeter.threads.JMeterThread: Thread started: ThreadGroup 1-44 
+2015/01/15 06:25:45 INFO  - jmeter.threads.JMeterThread: Thread started: ThreadGroup 1-45 
+2015/01/15 06:25:45 INFO  - jmeter.threads.JMeterThread: Thread started: ThreadGroup 1-46 
+2015/01/15 06:25:46 INFO  - jmeter.threads.JMeterThread: Thread started: ThreadGroup 1-47 
+2015/01/15 06:25:46 INFO  - jmeter.threads.JMeterThread: Thread started: ThreadGroup 1-48 
+2015/01/15 06:25:47 INFO  - jmeter.threads.JMeterThread: Thread started: ThreadGroup 1-49 
+2015/01/15 06:25:47 INFO  - jmeter.threads.JMeterThread: Thread started: ThreadGroup 1-50 
+2015/01/15 06:26:00 INFO  - jmeter.reporters.Summariser: summary +    167 in    36s =    4.7/s Avg:  5872 Min:     0 Max: 13345 Err:    14 (8.38%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:26:00 INFO  - jmeter.reporters.Summariser: summary =    186 in    38s =    5.0/s Avg:  5367 Min:     0 Max: 13345 Err:    14 (7.53%) 
+2015/01/15 06:26:30 INFO  - jmeter.reporters.Summariser: summary +    145 in  43.4s =    3.3/s Avg: 10275 Min:  7179 Max: 13705 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:26:30 INFO  - jmeter.reporters.Summariser: summary =    331 in  67.3s =    4.9/s Avg:  7517 Min:     0 Max: 13705 Err:    14 (4.23%) 
+2015/01/15 06:27:00 INFO  - jmeter.reporters.Summariser: summary +    164 in    40s =    4.1/s Avg:  9406 Min:  8242 Max: 10623 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:27:00 INFO  - jmeter.reporters.Summariser: summary =    495 in  97.3s =    5.1/s Avg:  8143 Min:     0 Max: 13705 Err:    14 (2.83%) 
+2015/01/15 06:27:30 INFO  - jmeter.reporters.Summariser: summary +    165 in    39s =    4.2/s Avg:  8867 Min:  7783 Max: 10204 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:27:30 INFO  - jmeter.reporters.Summariser: summary =    660 in   127s =    5.2/s Avg:  8324 Min:     0 Max: 13705 Err:    14 (2.12%) 
+2015/01/15 06:28:00 INFO  - jmeter.reporters.Summariser: summary +    186 in  38.2s =    4.9/s Avg:  8436 Min:  7578 Max:  9856 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:28:00 INFO  - jmeter.reporters.Summariser: summary =    846 in   157s =    5.4/s Avg:  8348 Min:     0 Max: 13705 Err:    14 (1.65%) 
+2015/01/15 06:28:30 INFO  - jmeter.reporters.Summariser: summary +    170 in    39s =    4.4/s Avg:  8381 Min:  7247 Max: 10185 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:28:30 INFO  - jmeter.reporters.Summariser: summary =   1016 in   187s =    5.4/s Avg:  8354 Min:     0 Max: 13705 Err:    14 (1.38%) 
+2015/01/15 06:29:00 INFO  - jmeter.reporters.Summariser: summary +    154 in  39.1s =    3.9/s Avg:  8844 Min:  6372 Max: 14439 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:29:00 INFO  - jmeter.reporters.Summariser: summary =   1170 in   218s =    5.4/s Avg:  8418 Min:     0 Max: 14439 Err:    14 (1.20%) 
+2015/01/15 06:29:30 INFO  - jmeter.reporters.Summariser: summary +    192 in  43.4s =    4.4/s Avg:  8664 Min:  6271 Max: 14172 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:29:30 INFO  - jmeter.reporters.Summariser: summary =   1362 in   248s =    5.5/s Avg:  8453 Min:     0 Max: 14439 Err:    14 (1.03%) 
+2015/01/15 06:30:00 INFO  - jmeter.reporters.Summariser: summary +    201 in  37.2s =    5.4/s Avg:  7529 Min:  6282 Max:  8490 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:30:00 INFO  - jmeter.reporters.Summariser: summary =   1563 in   278s =    5.6/s Avg:  8334 Min:     0 Max: 14439 Err:    14 (0.90%) 
+2015/01/15 06:30:30 INFO  - jmeter.reporters.Summariser: summary +    204 in  37.3s =    5.5/s Avg:  7320 Min:  6090 Max:  8283 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:30:30 INFO  - jmeter.reporters.Summariser: summary =   1767 in   307s =    5.7/s Avg:  8217 Min:     0 Max: 14439 Err:    14 (0.79%) 
+2015/01/15 06:31:00 INFO  - jmeter.reporters.Summariser: summary +    205 in    38s =    5.5/s Avg:  7329 Min:  6070 Max:  8360 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:31:00 INFO  - jmeter.reporters.Summariser: summary =   1972 in   337s =    5.8/s Avg:  8125 Min:     0 Max: 14439 Err:    14 (0.71%) 
+2015/01/15 06:31:30 INFO  - jmeter.reporters.Summariser: summary +    204 in    38s =    5.4/s Avg:  7220 Min:  6053 Max:  8481 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:31:30 INFO  - jmeter.reporters.Summariser: summary =   2176 in   367s =    5.9/s Avg:  8040 Min:     0 Max: 14439 Err:    14 (0.64%) 
+2015/01/15 06:32:00 INFO  - jmeter.reporters.Summariser: summary +    225 in  37.2s =    6.1/s Avg:  6968 Min:  5488 Max:  7810 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:32:00 INFO  - jmeter.reporters.Summariser: summary =   2401 in   397s =    6.0/s Avg:  7939 Min:     0 Max: 14439 Err:    14 (0.58%) 
+2015/01/15 06:32:30 INFO  - jmeter.reporters.Summariser: summary +    223 in    37s =    6.1/s Avg:  6938 Min:  5947 Max:  7915 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:32:30 INFO  - jmeter.reporters.Summariser: summary =   2624 in   427s =    6.1/s Avg:  7854 Min:     0 Max: 14439 Err:    14 (0.53%) 
+2015/01/15 06:33:00 INFO  - jmeter.reporters.Summariser: summary +    208 in    36s =    5.8/s Avg:  6820 Min:  5501 Max:  8224 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:33:00 INFO  - jmeter.reporters.Summariser: summary =   2832 in   457s =    6.2/s Avg:  7778 Min:     0 Max: 14439 Err:    14 (0.49%) 
+2015/01/15 06:33:30 INFO  - jmeter.reporters.Summariser: summary +    216 in  36.5s =    5.9/s Avg:  6822 Min:  5980 Max:  8008 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:33:30 INFO  - jmeter.reporters.Summariser: summary =   3048 in   487s =    6.3/s Avg:  7711 Min:     0 Max: 14439 Err:    14 (0.46%) 
+2015/01/15 06:34:00 INFO  - jmeter.reporters.Summariser: summary +    237 in  37.3s =    6.4/s Avg:  6790 Min:  5717 Max:  7576 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:34:00 INFO  - jmeter.reporters.Summariser: summary =   3285 in   517s =    6.3/s Avg:  7644 Min:     0 Max: 14439 Err:    14 (0.43%) 
+2015/01/15 06:34:30 INFO  - jmeter.reporters.Summariser: summary +    215 in  37.4s =    5.8/s Avg:  6790 Min:  5345 Max:  7889 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:34:30 INFO  - jmeter.reporters.Summariser: summary =   3500 in   547s =    6.4/s Avg:  7592 Min:     0 Max: 14439 Err:    14 (0.40%) 
+2015/01/15 06:35:00 INFO  - jmeter.reporters.Summariser: summary +    216 in    37s =    5.9/s Avg:  6692 Min:  5464 Max:  8069 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:35:00 INFO  - jmeter.reporters.Summariser: summary =   3716 in   578s =    6.4/s Avg:  7539 Min:     0 Max: 14439 Err:    14 (0.38%) 
+2015/01/15 06:35:30 INFO  - jmeter.reporters.Summariser: summary +    238 in  36.5s =    6.5/s Avg:  6731 Min:  5727 Max:  7819 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:35:30 INFO  - jmeter.reporters.Summariser: summary =   3954 in   607s =    6.5/s Avg:  7491 Min:     0 Max: 14439 Err:    14 (0.35%) 
+2015/01/15 06:36:00 INFO  - jmeter.reporters.Summariser: summary +    211 in    37s =    5.8/s Avg:  6690 Min:  5774 Max:  7495 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:36:00 INFO  - jmeter.reporters.Summariser: summary =   4165 in   637s =    6.5/s Avg:  7450 Min:     0 Max: 14439 Err:    14 (0.34%) 
+2015/01/15 06:36:30 INFO  - jmeter.reporters.Summariser: summary +    218 in  36.4s =    6.0/s Avg:  6745 Min:  5287 Max:  7880 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:36:30 INFO  - jmeter.reporters.Summariser: summary =   4383 in   667s =    6.6/s Avg:  7415 Min:     0 Max: 14439 Err:    14 (0.32%) 
+2015/01/15 06:37:00 INFO  - jmeter.reporters.Summariser: summary +    241 in  37.2s =    6.5/s Avg:  6691 Min:  5661 Max:  7554 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:37:00 INFO  - jmeter.reporters.Summariser: summary =   4624 in   698s =    6.6/s Avg:  7377 Min:     0 Max: 14439 Err:    14 (0.30%) 
+2015/01/15 06:37:30 INFO  - jmeter.reporters.Summariser: summary +    209 in    36s =    5.8/s Avg:  6719 Min:  5837 Max:  7939 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:37:30 INFO  - jmeter.reporters.Summariser: summary =   4833 in   727s =    6.6/s Avg:  7349 Min:     0 Max: 14439 Err:    14 (0.29%) 
+2015/01/15 06:38:00 INFO  - jmeter.reporters.Summariser: summary +    234 in  36.5s =    6.4/s Avg:  6638 Min:  5506 Max:  7535 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:38:00 INFO  - jmeter.reporters.Summariser: summary =   5067 in   757s =    6.7/s Avg:  7316 Min:     0 Max: 14439 Err:    14 (0.28%) 
+2015/01/15 06:38:30 INFO  - jmeter.reporters.Summariser: summary +    221 in    37s =    6.0/s Avg:  6686 Min:  5870 Max:  7492 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:38:30 INFO  - jmeter.reporters.Summariser: summary =   5288 in   787s =    6.7/s Avg:  7290 Min:     0 Max: 14439 Err:    14 (0.26%) 
+2015/01/15 06:39:00 INFO  - jmeter.reporters.Summariser: summary +    219 in  36.4s =    6.0/s Avg:  6637 Min:  4506 Max:  7605 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:39:00 INFO  - jmeter.reporters.Summariser: summary =   5507 in   817s =    6.7/s Avg:  7264 Min:     0 Max: 14439 Err:    14 (0.25%) 
+2015/01/15 06:39:30 INFO  - jmeter.reporters.Summariser: summary +    238 in  36.2s =    6.6/s Avg:  6692 Min:  5647 Max:  8520 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:39:30 INFO  - jmeter.reporters.Summariser: summary =   5745 in   847s =    6.8/s Avg:  7240 Min:     0 Max: 14439 Err:    14 (0.24%) 
+2015/01/15 06:40:00 INFO  - jmeter.reporters.Summariser: summary +    216 in    37s =    5.9/s Avg:  6899 Min:  5667 Max:  8464 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:40:00 INFO  - jmeter.reporters.Summariser: summary =   5961 in   877s =    6.8/s Avg:  7228 Min:     0 Max: 14439 Err:    14 (0.23%) 
+2015/01/15 06:40:30 INFO  - jmeter.reporters.Summariser: summary +    209 in  38.1s =    5.5/s Avg:  7004 Min:  6087 Max:  8590 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:40:30 INFO  - jmeter.reporters.Summariser: summary =   6170 in   907s =    6.8/s Avg:  7220 Min:     0 Max: 14439 Err:    14 (0.23%) 
+2015/01/15 06:41:00 INFO  - jmeter.reporters.Summariser: summary +    219 in    36s =    6.1/s Avg:  6661 Min:  3761 Max:  7648 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:41:00 INFO  - jmeter.reporters.Summariser: summary =   6389 in   937s =    6.8/s Avg:  7201 Min:     0 Max: 14439 Err:    14 (0.22%) 
+2015/01/15 06:41:30 INFO  - jmeter.reporters.Summariser: summary +    237 in  37.1s =    6.4/s Avg:  6689 Min:  5829 Max:  7791 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:41:30 INFO  - jmeter.reporters.Summariser: summary =   6626 in   967s =    6.8/s Avg:  7183 Min:     0 Max: 14439 Err:    14 (0.21%) 
+2015/01/15 06:42:00 INFO  - jmeter.reporters.Summariser: summary +    214 in    37s =    5.8/s Avg:  6677 Min:  5576 Max:  7461 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:42:00 INFO  - jmeter.reporters.Summariser: summary =   6840 in   997s =    6.9/s Avg:  7167 Min:     0 Max: 14439 Err:    14 (0.20%) 
+2015/01/15 06:42:30 INFO  - jmeter.reporters.Summariser: summary +    230 in  36.3s =    6.3/s Avg:  6718 Min:  5299 Max:  7703 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:42:30 INFO  - jmeter.reporters.Summariser: summary =   7070 in  1027s =    6.9/s Avg:  7152 Min:     0 Max: 14439 Err:    14 (0.20%) 
+2015/01/15 06:43:00 INFO  - jmeter.reporters.Summariser: summary +    226 in  37.4s =    6.0/s Avg:  6638 Min:  5718 Max:  7627 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:43:00 INFO  - jmeter.reporters.Summariser: summary =   7296 in  1058s =    6.9/s Avg:  7136 Min:     0 Max: 14439 Err:    14 (0.19%) 
+2015/01/15 06:43:30 INFO  - jmeter.reporters.Summariser: summary +    219 in  35.4s =    6.2/s Avg:  6669 Min:  5620 Max:  7432 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:43:30 INFO  - jmeter.reporters.Summariser: summary =   7515 in  1087s =    6.9/s Avg:  7123 Min:     0 Max: 14439 Err:    14 (0.19%) 
+2015/01/15 06:44:00 INFO  - jmeter.reporters.Summariser: summary +    231 in    37s =    6.3/s Avg:  6705 Min:  5812 Max:  7837 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:44:00 INFO  - jmeter.reporters.Summariser: summary =   7746 in  1117s =    6.9/s Avg:  7110 Min:     0 Max: 14439 Err:    14 (0.18%) 
+2015/01/15 06:44:30 INFO  - jmeter.reporters.Summariser: summary +    217 in  37.1s =    5.8/s Avg:  6660 Min:  5649 Max:  7550 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:44:30 INFO  - jmeter.reporters.Summariser: summary =   7963 in  1148s =    6.9/s Avg:  7098 Min:     0 Max: 14439 Err:    14 (0.18%) 
+2015/01/15 06:45:00 INFO  - jmeter.reporters.Summariser: summary +    234 in  36.2s =    6.5/s Avg:  6672 Min:  5707 Max:  7642 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:45:00 INFO  - jmeter.reporters.Summariser: summary =   8197 in  1177s =    7.0/s Avg:  7086 Min:     0 Max: 14439 Err:    14 (0.17%) 
+2015/01/15 06:45:30 INFO  - jmeter.reporters.Summariser: summary +    218 in  37.1s =    5.9/s Avg:  6709 Min:  5598 Max:  7509 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:45:30 INFO  - jmeter.reporters.Summariser: summary =   8415 in  1208s =    7.0/s Avg:  7076 Min:     0 Max: 14439 Err:    14 (0.17%) 
+2015/01/15 06:46:00 INFO  - jmeter.reporters.Summariser: summary +    220 in  36.1s =    6.1/s Avg:  6629 Min:  5212 Max:  7422 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:46:00 INFO  - jmeter.reporters.Summariser: summary =   8635 in  1237s =    7.0/s Avg:  7065 Min:     0 Max: 14439 Err:    14 (0.16%) 
+2015/01/15 06:46:30 INFO  - jmeter.reporters.Summariser: summary +    238 in    37s =    6.5/s Avg:  6687 Min:  4805 Max:  7512 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:46:30 INFO  - jmeter.reporters.Summariser: summary =   8873 in  1267s =    7.0/s Avg:  7055 Min:     0 Max: 14439 Err:    14 (0.16%) 
+2015/01/15 06:47:00 INFO  - jmeter.reporters.Summariser: summary +    219 in    37s =    5.9/s Avg:  6627 Min:  5351 Max:  7615 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:47:00 INFO  - jmeter.reporters.Summariser: summary =   9092 in  1298s =    7.0/s Avg:  7044 Min:     0 Max: 14439 Err:    14 (0.15%) 
+2015/01/15 06:47:30 INFO  - jmeter.reporters.Summariser: summary +    225 in    36s =    6.3/s Avg:  6647 Min:  5748 Max:  7489 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:47:30 INFO  - jmeter.reporters.Summariser: summary =   9317 in  1327s =    7.0/s Avg:  7035 Min:     0 Max: 14439 Err:    14 (0.15%) 
+2015/01/15 06:48:00 INFO  - jmeter.reporters.Summariser: summary +    229 in    38s =    6.1/s Avg:  6646 Min:  5863 Max:  7647 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:48:00 INFO  - jmeter.reporters.Summariser: summary =   9546 in  1357s =    7.0/s Avg:  7025 Min:     0 Max: 14439 Err:    14 (0.15%) 
+2015/01/15 06:48:30 INFO  - jmeter.reporters.Summariser: summary +    217 in    36s =    6.0/s Avg:  6688 Min:  5714 Max:  7574 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:48:30 INFO  - jmeter.reporters.Summariser: summary =   9763 in  1387s =    7.0/s Avg:  7018 Min:     0 Max: 14439 Err:    14 (0.14%) 
+2015/01/15 06:49:00 INFO  - jmeter.reporters.Summariser: summary +    234 in    37s =    6.4/s Avg:  6640 Min:  5793 Max:  7495 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:49:00 INFO  - jmeter.reporters.Summariser: summary =   9997 in  1417s =    7.1/s Avg:  7009 Min:     0 Max: 14439 Err:    14 (0.14%) 
+2015/01/15 06:49:30 INFO  - jmeter.reporters.Summariser: summary +    215 in    37s =    5.8/s Avg:  6681 Min:  5255 Max:  7469 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:49:30 INFO  - jmeter.reporters.Summariser: summary =  10212 in  1447s =    7.1/s Avg:  7002 Min:     0 Max: 14439 Err:    14 (0.14%) 
+2015/01/15 06:50:00 INFO  - jmeter.reporters.Summariser: summary +    240 in    37s =    6.5/s Avg:  6637 Min:  5843 Max:  7430 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:50:00 INFO  - jmeter.reporters.Summariser: summary =  10452 in  1477s =    7.1/s Avg:  6994 Min:     0 Max: 14439 Err:    14 (0.13%) 
+2015/01/15 06:50:30 INFO  - jmeter.reporters.Summariser: summary +    211 in    37s =    5.8/s Avg:  6726 Min:  5814 Max:  7424 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:50:30 INFO  - jmeter.reporters.Summariser: summary =  10663 in  1507s =    7.1/s Avg:  6988 Min:     0 Max: 14439 Err:    14 (0.13%) 
+2015/01/15 06:51:00 INFO  - jmeter.reporters.Summariser: summary +    225 in  36.2s =    6.2/s Avg:  6702 Min:  5253 Max:  7776 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:51:00 INFO  - jmeter.reporters.Summariser: summary =  10888 in  1537s =    7.1/s Avg:  6983 Min:     0 Max: 14439 Err:    14 (0.13%) 
+2015/01/15 06:51:30 INFO  - jmeter.reporters.Summariser: summary +    230 in    37s =    6.3/s Avg:  6712 Min:  5790 Max:  7387 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:51:30 INFO  - jmeter.reporters.Summariser: summary =  11118 in  1567s =    7.1/s Avg:  6977 Min:     0 Max: 14439 Err:    14 (0.13%) 
+2015/01/15 06:52:00 INFO  - jmeter.reporters.Summariser: summary +    214 in    37s =    5.8/s Avg:  6623 Min:  5845 Max:  7293 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:52:00 INFO  - jmeter.reporters.Summariser: summary =  11332 in  1597s =    7.1/s Avg:  6970 Min:     0 Max: 14439 Err:    14 (0.12%) 
+2015/01/15 06:52:30 INFO  - jmeter.reporters.Summariser: summary +    229 in    37s =    6.2/s Avg:  6777 Min:  6013 Max:  7692 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:52:30 INFO  - jmeter.reporters.Summariser: summary =  11561 in  1628s =    7.1/s Avg:  6966 Min:     0 Max: 14439 Err:    14 (0.12%) 
+2015/01/15 06:53:00 INFO  - jmeter.reporters.Summariser: summary +    218 in  37.1s =    5.9/s Avg:  7040 Min:  5826 Max:  8195 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:53:00 INFO  - jmeter.reporters.Summariser: summary =  11779 in  1657s =    7.1/s Avg:  6968 Min:     0 Max: 14439 Err:    14 (0.12%) 
+2015/01/15 06:53:30 INFO  - jmeter.reporters.Summariser: summary +    216 in    37s =    5.8/s Avg:  6691 Min:  5780 Max:  7366 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:53:30 INFO  - jmeter.reporters.Summariser: summary =  11995 in  1688s =    7.1/s Avg:  6963 Min:     0 Max: 14439 Err:    14 (0.12%) 
+2015/01/15 06:54:00 INFO  - jmeter.reporters.Summariser: summary +    226 in  36.3s =    6.2/s Avg:  6676 Min:  5273 Max:  7935 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:54:00 INFO  - jmeter.reporters.Summariser: summary =  12221 in  1717s =    7.1/s Avg:  6958 Min:     0 Max: 14439 Err:    14 (0.11%) 
+2015/01/15 06:54:30 INFO  - jmeter.reporters.Summariser: summary +    215 in    37s =    5.8/s Avg:  7197 Min:  5713 Max:  8502 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:54:30 INFO  - jmeter.reporters.Summariser: summary =  12436 in  1747s =    7.1/s Avg:  6962 Min:     0 Max: 14439 Err:    14 (0.11%) 
+2015/01/15 06:55:00 INFO  - jmeter.reporters.Summariser: summary +    221 in  38.1s =    5.8/s Avg:  6725 Min:  5873 Max:  8042 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:55:00 INFO  - jmeter.reporters.Summariser: summary =  12657 in  1777s =    7.1/s Avg:  6958 Min:     0 Max: 14439 Err:    14 (0.11%) 
+2015/01/15 06:55:30 INFO  - jmeter.reporters.Summariser: summary +    218 in    37s =    5.9/s Avg:  6642 Min:  5681 Max:  7441 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:55:30 INFO  - jmeter.reporters.Summariser: summary =  12875 in  1807s =    7.1/s Avg:  6952 Min:     0 Max: 14439 Err:    14 (0.11%) 
+2015/01/15 06:56:00 INFO  - jmeter.reporters.Summariser: summary +    237 in    37s =    6.4/s Avg:  6660 Min:  5486 Max:  7531 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:56:00 INFO  - jmeter.reporters.Summariser: summary =  13112 in  1837s =    7.1/s Avg:  6947 Min:     0 Max: 14439 Err:    14 (0.11%) 
+2015/01/15 06:56:30 INFO  - jmeter.reporters.Summariser: summary +    215 in  36.5s =    5.9/s Avg:  6674 Min:  5458 Max:  7407 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:56:30 INFO  - jmeter.reporters.Summariser: summary =  13327 in  1867s =    7.1/s Avg:  6942 Min:     0 Max: 14439 Err:    14 (0.11%) 
+2015/01/15 06:57:00 INFO  - jmeter.reporters.Summariser: summary +    228 in  36.2s =    6.3/s Avg:  6689 Min:  5678 Max:  7399 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:57:00 INFO  - jmeter.reporters.Summariser: summary =  13555 in  1897s =    7.1/s Avg:  6938 Min:     0 Max: 14439 Err:    14 (0.10%) 
+2015/01/15 06:57:30 INFO  - jmeter.reporters.Summariser: summary +    224 in    38s =    6.0/s Avg:  6703 Min:  5677 Max:  7441 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:57:30 INFO  - jmeter.reporters.Summariser: summary =  13779 in  1928s =    7.1/s Avg:  6934 Min:     0 Max: 14439 Err:    14 (0.10%) 
+2015/01/15 06:58:00 INFO  - jmeter.reporters.Summariser: summary +    219 in    36s =    6.1/s Avg:  6701 Min:  5673 Max:  7939 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:58:00 INFO  - jmeter.reporters.Summariser: summary =  13998 in  1957s =    7.2/s Avg:  6931 Min:     0 Max: 14439 Err:    14 (0.10%) 
+2015/01/15 06:58:30 INFO  - jmeter.reporters.Summariser: summary +    229 in    37s =    6.2/s Avg:  6750 Min:  5904 Max:  7809 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:58:30 INFO  - jmeter.reporters.Summariser: summary =  14227 in  1987s =    7.2/s Avg:  6928 Min:     0 Max: 14439 Err:    14 (0.10%) 
+2015/01/15 06:59:00 INFO  - jmeter.reporters.Summariser: summary +    221 in    38s =    5.9/s Avg:  6658 Min:  3702 Max:  8528 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:59:00 INFO  - jmeter.reporters.Summariser: summary =  14448 in  2018s =    7.2/s Avg:  6924 Min:     0 Max: 14439 Err:    14 (0.10%) 
+2015/01/15 06:59:30 INFO  - jmeter.reporters.Summariser: summary +    216 in    36s =    6.0/s Avg:  6664 Min:  4250 Max:  7846 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 06:59:30 INFO  - jmeter.reporters.Summariser: summary =  14664 in  2047s =    7.2/s Avg:  6920 Min:     0 Max: 14439 Err:    14 (0.10%) 
+2015/01/15 07:00:00 INFO  - jmeter.reporters.Summariser: summary +    241 in    37s =    6.6/s Avg:  6674 Min:  4641 Max:  7712 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:00:00 INFO  - jmeter.reporters.Summariser: summary =  14905 in  2077s =    7.2/s Avg:  6916 Min:     0 Max: 14439 Err:    14 (0.09%) 
+2015/01/15 07:00:30 INFO  - jmeter.reporters.Summariser: summary +    218 in    37s =    5.9/s Avg:  6661 Min:  5415 Max:  7541 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:00:30 INFO  - jmeter.reporters.Summariser: summary =  15123 in  2108s =    7.2/s Avg:  6912 Min:     0 Max: 14439 Err:    14 (0.09%) 
+2015/01/15 07:01:00 INFO  - jmeter.reporters.Summariser: summary +    231 in    36s =    6.5/s Avg:  6621 Min:  5762 Max:  7343 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:01:00 INFO  - jmeter.reporters.Summariser: summary =  15354 in  2137s =    7.2/s Avg:  6908 Min:     0 Max: 14439 Err:    14 (0.09%) 
+2015/01/15 07:01:30 INFO  - jmeter.reporters.Summariser: summary +    223 in    38s =    5.9/s Avg:  6726 Min:  5884 Max:  7557 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:01:30 INFO  - jmeter.reporters.Summariser: summary =  15577 in  2168s =    7.2/s Avg:  6905 Min:     0 Max: 14439 Err:    14 (0.09%) 
+2015/01/15 07:02:00 INFO  - jmeter.reporters.Summariser: summary +    216 in    36s =    6.1/s Avg:  6717 Min:  5614 Max:  7322 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:02:00 INFO  - jmeter.reporters.Summariser: summary =  15793 in  2197s =    7.2/s Avg:  6903 Min:     0 Max: 14439 Err:    14 (0.09%) 
+2015/01/15 07:02:30 INFO  - jmeter.reporters.Summariser: summary +    234 in  37.4s =    6.3/s Avg:  6698 Min:  5860 Max:  7432 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:02:30 INFO  - jmeter.reporters.Summariser: summary =  16027 in  2228s =    7.2/s Avg:  6900 Min:     0 Max: 14439 Err:    14 (0.09%) 
+2015/01/15 07:03:00 INFO  - jmeter.reporters.Summariser: summary +    214 in    37s =    5.9/s Avg:  6677 Min:  5413 Max:  7382 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:03:00 INFO  - jmeter.reporters.Summariser: summary =  16241 in  2257s =    7.2/s Avg:  6897 Min:     0 Max: 14439 Err:    14 (0.09%) 
+2015/01/15 07:03:30 INFO  - jmeter.reporters.Summariser: summary +    234 in    37s =    6.4/s Avg:  6674 Min:  5206 Max:  7481 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:03:30 INFO  - jmeter.reporters.Summariser: summary =  16475 in  2287s =    7.2/s Avg:  6894 Min:     0 Max: 14439 Err:    14 (0.08%) 
+2015/01/15 07:04:00 INFO  - jmeter.reporters.Summariser: summary +    220 in  37.2s =    5.9/s Avg:  6640 Min:  5588 Max:  7424 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:04:00 INFO  - jmeter.reporters.Summariser: summary =  16695 in  2318s =    7.2/s Avg:  6890 Min:     0 Max: 14439 Err:    14 (0.08%) 
+2015/01/15 07:04:30 INFO  - jmeter.reporters.Summariser: summary +    226 in  36.2s =    6.2/s Avg:  6654 Min:  5674 Max:  7919 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:04:30 INFO  - jmeter.reporters.Summariser: summary =  16921 in  2347s =    7.2/s Avg:  6887 Min:     0 Max: 14439 Err:    14 (0.08%) 
+2015/01/15 07:05:00 INFO  - jmeter.reporters.Summariser: summary +    232 in  37.5s =    6.2/s Avg:  6637 Min:  5835 Max:  7417 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:05:00 INFO  - jmeter.reporters.Summariser: summary =  17153 in  2378s =    7.2/s Avg:  6884 Min:     0 Max: 14439 Err:    14 (0.08%) 
+2015/01/15 07:05:30 INFO  - jmeter.reporters.Summariser: summary +    206 in  35.3s =    5.8/s Avg:  7120 Min:  5192 Max:  8365 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:05:30 INFO  - jmeter.reporters.Summariser: summary =  17359 in  2407s =    7.2/s Avg:  6887 Min:     0 Max: 14439 Err:    14 (0.08%) 
+2015/01/15 07:06:00 INFO  - jmeter.reporters.Summariser: summary +    217 in    37s =    5.9/s Avg:  6829 Min:  4600 Max:  8104 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:06:00 INFO  - jmeter.reporters.Summariser: summary =  17576 in  2437s =    7.2/s Avg:  6886 Min:     0 Max: 14439 Err:    14 (0.08%) 
+2015/01/15 07:06:30 INFO  - jmeter.reporters.Summariser: summary +    231 in  36.3s =    6.4/s Avg:  6656 Min:  5754 Max:  7688 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:06:30 INFO  - jmeter.reporters.Summariser: summary =  17807 in  2467s =    7.2/s Avg:  6883 Min:     0 Max: 14439 Err:    14 (0.08%) 
+2015/01/15 07:07:00 INFO  - jmeter.reporters.Summariser: summary +    227 in  36.5s =    6.2/s Avg:  6596 Min:  5591 Max:  7735 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:07:00 INFO  - jmeter.reporters.Summariser: summary =  18034 in  2497s =    7.2/s Avg:  6879 Min:     0 Max: 14439 Err:    14 (0.08%) 
+2015/01/15 07:07:30 INFO  - jmeter.reporters.Summariser: summary +    215 in  36.4s =    5.9/s Avg:  6651 Min:  5288 Max:  7437 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:07:30 INFO  - jmeter.reporters.Summariser: summary =  18249 in  2527s =    7.2/s Avg:  6877 Min:     0 Max: 14439 Err:    14 (0.08%) 
+2015/01/15 07:08:00 INFO  - jmeter.reporters.Summariser: summary +    240 in    37s =    6.5/s Avg:  6632 Min:  5742 Max:  7422 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:08:00 INFO  - jmeter.reporters.Summariser: summary =  18489 in  2557s =    7.2/s Avg:  6873 Min:     0 Max: 14439 Err:    14 (0.08%) 
+2015/01/15 07:08:30 INFO  - jmeter.reporters.Summariser: summary +    211 in  36.4s =    5.8/s Avg:  6637 Min:  5434 Max:  7608 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:08:30 INFO  - jmeter.reporters.Summariser: summary =  18700 in  2587s =    7.2/s Avg:  6871 Min:     0 Max: 14439 Err:    14 (0.07%) 
+2015/01/15 07:09:00 INFO  - jmeter.reporters.Summariser: summary +    240 in    37s =    6.6/s Avg:  6664 Min:  5406 Max:  8150 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:09:00 INFO  - jmeter.reporters.Summariser: summary =  18940 in  2617s =    7.2/s Avg:  6868 Min:     0 Max: 14439 Err:    14 (0.07%) 
+2015/01/15 07:09:30 INFO  - jmeter.reporters.Summariser: summary +    216 in    37s =    5.9/s Avg:  6652 Min:  5711 Max:  7820 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:09:30 INFO  - jmeter.reporters.Summariser: summary =  19156 in  2648s =    7.2/s Avg:  6866 Min:     0 Max: 14439 Err:    14 (0.07%) 
+2015/01/15 07:10:00 INFO  - jmeter.reporters.Summariser: summary +    230 in    36s =    6.5/s Avg:  6655 Min:  5591 Max:  7588 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:10:00 INFO  - jmeter.reporters.Summariser: summary =  19386 in  2677s =    7.2/s Avg:  6863 Min:     0 Max: 14439 Err:    14 (0.07%) 
+2015/01/15 07:10:30 INFO  - jmeter.reporters.Summariser: summary +    228 in    38s =    6.0/s Avg:  6674 Min:  5735 Max:  8537 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:10:30 INFO  - jmeter.reporters.Summariser: summary =  19614 in  2708s =    7.2/s Avg:  6861 Min:     0 Max: 14439 Err:    14 (0.07%) 
+2015/01/15 07:11:00 INFO  - jmeter.reporters.Summariser: summary +    216 in    36s =    6.1/s Avg:  6639 Min:  4937 Max:  7704 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:11:00 INFO  - jmeter.reporters.Summariser: summary =  19830 in  2737s =    7.2/s Avg:  6859 Min:     0 Max: 14439 Err:    14 (0.07%) 
+2015/01/15 07:11:30 INFO  - jmeter.reporters.Summariser: summary +    238 in    37s =    6.5/s Avg:  6676 Min:  5762 Max:  7774 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:11:30 INFO  - jmeter.reporters.Summariser: summary =  20068 in  2767s =    7.3/s Avg:  6856 Min:     0 Max: 14439 Err:    14 (0.07%) 
+2015/01/15 07:12:00 INFO  - jmeter.reporters.Summariser: summary +    217 in    37s =    5.9/s Avg:  6601 Min:  5517 Max:  7377 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:12:00 INFO  - jmeter.reporters.Summariser: summary =  20285 in  2797s =    7.3/s Avg:  6854 Min:     0 Max: 14439 Err:    14 (0.07%) 
+2015/01/15 07:12:30 INFO  - jmeter.reporters.Summariser: summary +    222 in  36.4s =    6.1/s Avg:  6713 Min:  5803 Max:  7443 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:12:30 INFO  - jmeter.reporters.Summariser: summary =  20507 in  2827s =    7.3/s Avg:  6852 Min:     0 Max: 14439 Err:    14 (0.07%) 
+2015/01/15 07:13:00 INFO  - jmeter.reporters.Summariser: summary +    233 in  37.3s =    6.3/s Avg:  6685 Min:  5859 Max:  7508 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:13:00 INFO  - jmeter.reporters.Summariser: summary =  20740 in  2858s =    7.3/s Avg:  6850 Min:     0 Max: 14439 Err:    14 (0.07%) 
+2015/01/15 07:13:30 INFO  - jmeter.reporters.Summariser: summary +    221 in    37s =    6.0/s Avg:  6641 Min:  5299 Max:  7357 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:13:30 INFO  - jmeter.reporters.Summariser: summary =  20961 in  2887s =    7.3/s Avg:  6848 Min:     0 Max: 14439 Err:    14 (0.07%) 
+2015/01/15 07:14:00 INFO  - jmeter.reporters.Summariser: summary +    228 in    37s =    6.2/s Avg:  6651 Min:  5828 Max:  7627 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:14:00 INFO  - jmeter.reporters.Summariser: summary =  21189 in  2918s =    7.3/s Avg:  6846 Min:     0 Max: 14439 Err:    14 (0.07%) 
+2015/01/15 07:14:30 INFO  - jmeter.reporters.Summariser: summary +    216 in  36.2s =    6.0/s Avg:  6670 Min:  4338 Max:  8135 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:14:30 INFO  - jmeter.reporters.Summariser: summary =  21405 in  2947s =    7.3/s Avg:  6844 Min:     0 Max: 14439 Err:    14 (0.07%) 
+2015/01/15 07:15:00 INFO  - jmeter.reporters.Summariser: summary +    242 in    37s =    6.6/s Avg:  6656 Min:  5655 Max:  7574 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:15:00 INFO  - jmeter.reporters.Summariser: summary =  21647 in  2977s =    7.3/s Avg:  6842 Min:     0 Max: 14439 Err:    14 (0.06%) 
+2015/01/15 07:15:30 INFO  - jmeter.reporters.Summariser: summary +    211 in  37.1s =    5.7/s Avg:  6664 Min:  5864 Max:  7475 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:15:30 INFO  - jmeter.reporters.Summariser: summary =  21858 in  3008s =    7.3/s Avg:  6840 Min:     0 Max: 14439 Err:    14 (0.06%) 
+2015/01/15 07:16:00 INFO  - jmeter.reporters.Summariser: summary +    226 in  36.1s =    6.3/s Avg:  6634 Min:  5705 Max:  7681 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:16:00 INFO  - jmeter.reporters.Summariser: summary =  22084 in  3037s =    7.3/s Avg:  6838 Min:     0 Max: 14439 Err:    14 (0.06%) 
+2015/01/15 07:16:30 INFO  - jmeter.reporters.Summariser: summary +    232 in  37.1s =    6.3/s Avg:  6690 Min:  5708 Max:  7656 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:16:30 INFO  - jmeter.reporters.Summariser: summary =  22316 in  3067s =    7.3/s Avg:  6837 Min:     0 Max: 14439 Err:    14 (0.06%) 
+2015/01/15 07:17:00 INFO  - jmeter.reporters.Summariser: summary +    219 in    37s =    6.0/s Avg:  6626 Min:  5691 Max:  7556 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:17:00 INFO  - jmeter.reporters.Summariser: summary =  22535 in  3097s =    7.3/s Avg:  6835 Min:     0 Max: 14439 Err:    14 (0.06%) 
+2015/01/15 07:17:30 INFO  - jmeter.reporters.Summariser: summary +    232 in  36.4s =    6.4/s Avg:  6661 Min:  5763 Max:  7447 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:17:30 INFO  - jmeter.reporters.Summariser: summary =  22767 in  3127s =    7.3/s Avg:  6833 Min:     0 Max: 14439 Err:    14 (0.06%) 
+2015/01/15 07:18:00 INFO  - jmeter.reporters.Summariser: summary +    214 in  37.1s =    5.8/s Avg:  6943 Min:  6051 Max:  8060 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:18:00 INFO  - jmeter.reporters.Summariser: summary =  22981 in  3157s =    7.3/s Avg:  6834 Min:     0 Max: 14439 Err:    14 (0.06%) 
+2015/01/15 07:18:30 INFO  - jmeter.reporters.Summariser: summary +    210 in    37s =    5.7/s Avg:  7013 Min:  6054 Max:  8080 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:18:30 INFO  - jmeter.reporters.Summariser: summary =  23191 in  3187s =    7.3/s Avg:  6835 Min:     0 Max: 14439 Err:    14 (0.06%) 
+2015/01/15 07:19:00 INFO  - jmeter.reporters.Summariser: summary +    225 in    37s =    6.1/s Avg:  6637 Min:  5380 Max:  7956 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:19:00 INFO  - jmeter.reporters.Summariser: summary =  23416 in  3217s =    7.3/s Avg:  6834 Min:     0 Max: 14439 Err:    14 (0.06%) 
+2015/01/15 07:19:30 INFO  - jmeter.reporters.Summariser: summary +    228 in  37.2s =    6.1/s Avg:  6675 Min:  5791 Max:  7755 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:19:30 INFO  - jmeter.reporters.Summariser: summary =  23644 in  3247s =    7.3/s Avg:  6832 Min:     0 Max: 14439 Err:    14 (0.06%) 
+2015/01/15 07:20:00 INFO  - jmeter.reporters.Summariser: summary +    226 in    37s =    6.2/s Avg:  6672 Min:  5526 Max:  7488 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:20:00 INFO  - jmeter.reporters.Summariser: summary =  23870 in  3277s =    7.3/s Avg:  6831 Min:     0 Max: 14439 Err:    14 (0.06%) 
+2015/01/15 07:20:30 INFO  - jmeter.reporters.Summariser: summary +    219 in    37s =    6.0/s Avg:  6683 Min:  5916 Max:  7525 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:20:30 INFO  - jmeter.reporters.Summariser: summary =  24089 in  3307s =    7.3/s Avg:  6829 Min:     0 Max: 14439 Err:    14 (0.06%) 
+2015/01/15 07:21:00 INFO  - jmeter.reporters.Summariser: summary +    230 in    37s =    6.2/s Avg:  6713 Min:  5838 Max:  7597 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:21:00 INFO  - jmeter.reporters.Summariser: summary =  24319 in  3338s =    7.3/s Avg:  6828 Min:     0 Max: 14439 Err:    14 (0.06%) 
+2015/01/15 07:21:30 INFO  - jmeter.reporters.Summariser: summary +    212 in    37s =    5.7/s Avg:  7101 Min:  5793 Max:  8387 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:21:30 INFO  - jmeter.reporters.Summariser: summary =  24531 in  3367s =    7.3/s Avg:  6830 Min:     0 Max: 14439 Err:    14 (0.06%) 
+2015/01/15 07:22:00 INFO  - jmeter.reporters.Summariser: summary +    220 in    37s =    6.0/s Avg:  6678 Min:  5742 Max:  7527 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:22:00 INFO  - jmeter.reporters.Summariser: summary =  24751 in  3397s =    7.3/s Avg:  6829 Min:     0 Max: 14439 Err:    14 (0.06%) 
+2015/01/15 07:22:30 INFO  - jmeter.reporters.Summariser: summary +    234 in  36.5s =    6.4/s Avg:  6679 Min:  5847 Max:  7457 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:22:30 INFO  - jmeter.reporters.Summariser: summary =  24985 in  3427s =    7.3/s Avg:  6828 Min:     0 Max: 14439 Err:    14 (0.06%) 
+2015/01/15 07:23:00 INFO  - jmeter.reporters.Summariser: summary +    217 in    36s =    6.1/s Avg:  6577 Min:  5033 Max:  7887 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:23:00 INFO  - jmeter.reporters.Summariser: summary =  25202 in  3458s =    7.3/s Avg:  6826 Min:     0 Max: 14439 Err:    14 (0.06%) 
+2015/01/15 07:23:30 INFO  - jmeter.reporters.Summariser: summary +    232 in    37s =    6.3/s Avg:  6637 Min:  5705 Max:  7659 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:23:30 INFO  - jmeter.reporters.Summariser: summary =  25434 in  3487s =    7.3/s Avg:  6824 Min:     0 Max: 14439 Err:    14 (0.06%) 
+2015/01/15 07:24:00 INFO  - jmeter.reporters.Summariser: summary +    222 in  37.2s =    6.0/s Avg:  6644 Min:  5556 Max:  7681 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:24:00 INFO  - jmeter.reporters.Summariser: summary =  25656 in  3518s =    7.3/s Avg:  6822 Min:     0 Max: 14439 Err:    14 (0.05%) 
+2015/01/15 07:24:30 INFO  - jmeter.reporters.Summariser: summary +    218 in    37s =    6.0/s Avg:  6697 Min:  4450 Max:  7834 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:24:30 INFO  - jmeter.reporters.Summariser: summary =  25874 in  3548s =    7.3/s Avg:  6821 Min:     0 Max: 14439 Err:    14 (0.05%) 
+2015/01/15 07:25:00 INFO  - jmeter.reporters.Summariser: summary +    236 in    37s =    6.4/s Avg:  6641 Min:  5789 Max:  7458 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:25:00 INFO  - jmeter.reporters.Summariser: summary =  26110 in  3577s =    7.3/s Avg:  6820 Min:     0 Max: 14439 Err:    14 (0.05%) 
+2015/01/15 07:25:30 INFO  - jmeter.reporters.Summariser: summary +    221 in    37s =    6.0/s Avg:  6685 Min:  5740 Max:  7446 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:25:30 INFO  - jmeter.reporters.Summariser: summary =  26331 in  3607s =    7.3/s Avg:  6818 Min:     0 Max: 14439 Err:    14 (0.05%) 
+2015/01/15 07:26:00 INFO  - jmeter.reporters.Summariser: summary +    209 in    37s =    5.7/s Avg:  7021 Min:  5527 Max:  8335 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:26:00 INFO  - jmeter.reporters.Summariser: summary =  26540 in  3638s =    7.3/s Avg:  6820 Min:     0 Max: 14439 Err:    14 (0.05%) 
+2015/01/15 07:26:30 INFO  - jmeter.reporters.Summariser: summary +    232 in  37.2s =    6.2/s Avg:  6811 Min:  5661 Max:  8419 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:26:30 INFO  - jmeter.reporters.Summariser: summary =  26772 in  3667s =    7.3/s Avg:  6820 Min:     0 Max: 14439 Err:    14 (0.05%) 
+2015/01/15 07:27:00 INFO  - jmeter.reporters.Summariser: summary +    220 in  36.5s =    6.0/s Avg:  6634 Min:  5779 Max:  7274 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:27:00 INFO  - jmeter.reporters.Summariser: summary =  26992 in  3697s =    7.3/s Avg:  6818 Min:     0 Max: 14439 Err:    14 (0.05%) 
+2015/01/15 07:27:30 INFO  - jmeter.reporters.Summariser: summary +    220 in    36s =    6.2/s Avg:  6682 Min:  5633 Max:  7753 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:27:30 INFO  - jmeter.reporters.Summariser: summary =  27212 in  3727s =    7.3/s Avg:  6817 Min:     0 Max: 14439 Err:    14 (0.05%) 
+2015/01/15 07:28:00 INFO  - jmeter.reporters.Summariser: summary +    234 in    38s =    6.2/s Avg:  6651 Min:  5756 Max:  7369 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:28:00 INFO  - jmeter.reporters.Summariser: summary =  27446 in  3758s =    7.3/s Avg:  6816 Min:     0 Max: 14439 Err:    14 (0.05%) 
+2015/01/15 07:28:30 INFO  - jmeter.reporters.Summariser: summary +    213 in    36s =    5.9/s Avg:  6662 Min:  5864 Max:  7362 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:28:30 INFO  - jmeter.reporters.Summariser: summary =  27659 in  3787s =    7.3/s Avg:  6815 Min:     0 Max: 14439 Err:    14 (0.05%) 
+2015/01/15 07:29:00 INFO  - jmeter.reporters.Summariser: summary +    244 in    37s =    6.6/s Avg:  6682 Min:  3830 Max:  8298 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:29:00 INFO  - jmeter.reporters.Summariser: summary =  27903 in  3817s =    7.3/s Avg:  6814 Min:     0 Max: 14439 Err:    14 (0.05%) 
+2015/01/15 07:29:30 INFO  - jmeter.reporters.Summariser: summary +    211 in    35s =    6.1/s Avg:  6671 Min:  5067 Max:  7521 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:29:30 INFO  - jmeter.reporters.Summariser: summary =  28114 in  3847s =    7.3/s Avg:  6812 Min:     0 Max: 14439 Err:    14 (0.05%) 
+2015/01/15 07:30:00 INFO  - jmeter.reporters.Summariser: summary +    222 in    37s =    6.0/s Avg:  6652 Min:  5462 Max:  7618 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:30:00 INFO  - jmeter.reporters.Summariser: summary =  28336 in  3877s =    7.3/s Avg:  6811 Min:     0 Max: 14439 Err:    14 (0.05%) 
+2015/01/15 07:30:30 INFO  - jmeter.reporters.Summariser: summary +    232 in    37s =    6.3/s Avg:  6733 Min:  5673 Max:  7724 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:30:30 INFO  - jmeter.reporters.Summariser: summary =  28568 in  3907s =    7.3/s Avg:  6811 Min:     0 Max: 14439 Err:    14 (0.05%) 
+2015/01/15 07:31:00 INFO  - jmeter.reporters.Summariser: summary +    207 in  37.2s =    5.6/s Avg:  7104 Min:  5349 Max:  8421 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:31:00 INFO  - jmeter.reporters.Summariser: summary =  28775 in  3937s =    7.3/s Avg:  6813 Min:     0 Max: 14439 Err:    14 (0.05%) 
+2015/01/15 07:31:30 INFO  - jmeter.reporters.Summariser: summary +    223 in  37.3s =    6.0/s Avg:  6770 Min:  5567 Max:  7753 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:31:30 INFO  - jmeter.reporters.Summariser: summary =  28998 in  3967s =    7.3/s Avg:  6812 Min:     0 Max: 14439 Err:    14 (0.05%) 
+2015/01/15 07:32:00 INFO  - jmeter.reporters.Summariser: summary +    226 in  37.1s =    6.1/s Avg:  6666 Min:  5622 Max:  7427 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:32:00 INFO  - jmeter.reporters.Summariser: summary =  29224 in  3998s =    7.3/s Avg:  6811 Min:     0 Max: 14439 Err:    14 (0.05%) 
+2015/01/15 07:32:30 INFO  - jmeter.reporters.Summariser: summary +    220 in    37s =    6.0/s Avg:  6710 Min:  5933 Max:  7841 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:32:30 INFO  - jmeter.reporters.Summariser: summary =  29444 in  4028s =    7.3/s Avg:  6811 Min:     0 Max: 14439 Err:    14 (0.05%) 
+2015/01/15 07:33:00 INFO  - jmeter.reporters.Summariser: summary +    225 in    37s =    6.1/s Avg:  6700 Min:  5681 Max:  7462 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:33:00 INFO  - jmeter.reporters.Summariser: summary =  29669 in  4057s =    7.3/s Avg:  6810 Min:     0 Max: 14439 Err:    14 (0.05%) 
+2015/01/15 07:33:30 INFO  - jmeter.reporters.Summariser: summary +    226 in  36.4s =    6.2/s Avg:  6631 Min:  5948 Max:  7329 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:33:30 INFO  - jmeter.reporters.Summariser: summary =  29895 in  4087s =    7.3/s Avg:  6808 Min:     0 Max: 14439 Err:    14 (0.05%) 
+2015/01/15 07:34:00 INFO  - jmeter.reporters.Summariser: summary +    228 in  37.1s =    6.1/s Avg:  6628 Min:  5739 Max:  7750 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:34:00 INFO  - jmeter.reporters.Summariser: summary =  30123 in  4118s =    7.3/s Avg:  6807 Min:     0 Max: 14439 Err:    14 (0.05%) 
+2015/01/15 07:34:30 INFO  - jmeter.reporters.Summariser: summary +    218 in  36.3s =    6.0/s Avg:  6705 Min:  5627 Max:  7628 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:34:30 INFO  - jmeter.reporters.Summariser: summary =  30341 in  4147s =    7.3/s Avg:  6806 Min:     0 Max: 14439 Err:    14 (0.05%) 
+2015/01/15 07:35:00 INFO  - jmeter.reporters.Summariser: summary +    232 in    37s =    6.3/s Avg:  6671 Min:  5779 Max:  8408 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:35:00 INFO  - jmeter.reporters.Summariser: summary =  30573 in  4177s =    7.3/s Avg:  6805 Min:     0 Max: 14439 Err:    14 (0.05%) 
+2015/01/15 07:35:30 INFO  - jmeter.reporters.Summariser: summary +    216 in  36.4s =    5.9/s Avg:  6681 Min:  5644 Max:  7472 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:35:30 INFO  - jmeter.reporters.Summariser: summary =  30789 in  4207s =    7.3/s Avg:  6804 Min:     0 Max: 14439 Err:    14 (0.05%) 
+2015/01/15 07:36:00 INFO  - jmeter.reporters.Summariser: summary +    235 in  36.5s =    6.4/s Avg:  6647 Min:  5934 Max:  7514 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:36:00 INFO  - jmeter.reporters.Summariser: summary =  31024 in  4237s =    7.3/s Avg:  6803 Min:     0 Max: 14439 Err:    14 (0.05%) 
+2015/01/15 07:36:30 INFO  - jmeter.reporters.Summariser: summary +    219 in    37s =    6.0/s Avg:  6688 Min:  5554 Max:  8227 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:36:30 INFO  - jmeter.reporters.Summariser: summary =  31243 in  4267s =    7.3/s Avg:  6802 Min:     0 Max: 14439 Err:    14 (0.04%) 
+2015/01/15 07:37:00 INFO  - jmeter.reporters.Summariser: summary +    225 in  36.1s =    6.2/s Avg:  6650 Min:  4896 Max:  7879 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:37:00 INFO  - jmeter.reporters.Summariser: summary =  31468 in  4297s =    7.3/s Avg:  6801 Min:     0 Max: 14439 Err:    14 (0.04%) 
+2015/01/15 07:37:30 INFO  - jmeter.reporters.Summariser: summary +    233 in  37.2s =    6.3/s Avg:  6668 Min:  5268 Max:  7532 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:37:30 INFO  - jmeter.reporters.Summariser: summary =  31701 in  4328s =    7.3/s Avg:  6800 Min:     0 Max: 14439 Err:    14 (0.04%) 
+2015/01/15 07:38:00 INFO  - jmeter.reporters.Summariser: summary +    214 in    37s =    5.8/s Avg:  6658 Min:  5611 Max:  7981 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:38:00 INFO  - jmeter.reporters.Summariser: summary =  31915 in  4357s =    7.3/s Avg:  6799 Min:     0 Max: 14439 Err:    14 (0.04%) 
+2015/01/15 07:38:30 INFO  - jmeter.reporters.Summariser: summary +    233 in  37.3s =    6.2/s Avg:  6705 Min:  5779 Max:  7867 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:38:30 INFO  - jmeter.reporters.Summariser: summary =  32148 in  4387s =    7.3/s Avg:  6799 Min:     0 Max: 14439 Err:    14 (0.04%) 
+2015/01/15 07:39:00 INFO  - jmeter.reporters.Summariser: summary +    222 in  37.2s =    6.0/s Avg:  6646 Min:  5593 Max:  7773 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:39:00 INFO  - jmeter.reporters.Summariser: summary =  32370 in  4417s =    7.3/s Avg:  6798 Min:     0 Max: 14439 Err:    14 (0.04%) 
+2015/01/15 07:39:30 INFO  - jmeter.reporters.Summariser: summary +    217 in    37s =    5.9/s Avg:  6704 Min:  4111 Max:  8581 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:39:30 INFO  - jmeter.reporters.Summariser: summary =  32587 in  4447s =    7.3/s Avg:  6797 Min:     0 Max: 14439 Err:    14 (0.04%) 
+2015/01/15 07:40:00 INFO  - jmeter.reporters.Summariser: summary +    235 in    37s =    6.4/s Avg:  6718 Min:  5793 Max:  7624 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:40:00 INFO  - jmeter.reporters.Summariser: summary =  32822 in  4478s =    7.3/s Avg:  6796 Min:     0 Max: 14439 Err:    14 (0.04%) 
+2015/01/15 07:40:30 INFO  - jmeter.reporters.Summariser: summary +    215 in    37s =    5.9/s Avg:  6689 Min:  5620 Max:  7716 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:40:30 INFO  - jmeter.reporters.Summariser: summary =  33037 in  4507s =    7.3/s Avg:  6796 Min:     0 Max: 14439 Err:    14 (0.04%) 
+2015/01/15 07:41:00 INFO  - jmeter.reporters.Summariser: summary +    229 in    37s =    6.2/s Avg:  6621 Min:  5861 Max:  7553 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:41:00 INFO  - jmeter.reporters.Summariser: summary =  33266 in  4537s =    7.3/s Avg:  6794 Min:     0 Max: 14439 Err:    14 (0.04%) 
+2015/01/15 07:41:30 INFO  - jmeter.reporters.Summariser: summary +    229 in    37s =    6.2/s Avg:  6707 Min:  5551 Max:  7643 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:41:30 INFO  - jmeter.reporters.Summariser: summary =  33495 in  4568s =    7.3/s Avg:  6794 Min:     0 Max: 14439 Err:    14 (0.04%) 
+2015/01/15 07:42:00 INFO  - jmeter.reporters.Summariser: summary +    216 in  36.5s =    5.9/s Avg:  6628 Min:  5053 Max:  7592 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:42:00 INFO  - jmeter.reporters.Summariser: summary =  33711 in  4597s =    7.3/s Avg:  6793 Min:     0 Max: 14439 Err:    14 (0.04%) 
+2015/01/15 07:42:30 INFO  - jmeter.reporters.Summariser: summary +    239 in  37.4s =    6.4/s Avg:  6672 Min:  5331 Max:  7553 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:42:30 INFO  - jmeter.reporters.Summariser: summary =  33950 in  4628s =    7.3/s Avg:  6792 Min:     0 Max: 14439 Err:    14 (0.04%) 
+2015/01/15 07:43:00 INFO  - jmeter.reporters.Summariser: summary +    213 in    36s =    5.9/s Avg:  6618 Min:  5587 Max:  7562 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:43:00 INFO  - jmeter.reporters.Summariser: summary =  34163 in  4657s =    7.3/s Avg:  6791 Min:     0 Max: 14439 Err:    14 (0.04%) 
+2015/01/15 07:43:30 INFO  - jmeter.reporters.Summariser: summary +    211 in    37s =    5.7/s Avg:  6989 Min:  5979 Max:  8284 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:43:30 INFO  - jmeter.reporters.Summariser: summary =  34374 in  4688s =    7.3/s Avg:  6792 Min:     0 Max: 14439 Err:    14 (0.04%) 
+2015/01/15 07:44:00 INFO  - jmeter.reporters.Summariser: summary +    232 in    38s =    6.2/s Avg:  6827 Min:  5615 Max:  8076 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:44:00 INFO  - jmeter.reporters.Summariser: summary =  34606 in  4717s =    7.3/s Avg:  6792 Min:     0 Max: 14439 Err:    14 (0.04%) 
+2015/01/15 07:44:30 INFO  - jmeter.reporters.Summariser: summary +    218 in    37s =    5.9/s Avg:  6699 Min:  5944 Max:  7534 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:44:30 INFO  - jmeter.reporters.Summariser: summary =  34824 in  4748s =    7.3/s Avg:  6792 Min:     0 Max: 14439 Err:    14 (0.04%) 
+2015/01/15 07:45:00 INFO  - jmeter.reporters.Summariser: summary +    226 in    37s =    6.1/s Avg:  6646 Min:  5432 Max:  7559 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:45:00 INFO  - jmeter.reporters.Summariser: summary =  35050 in  4777s =    7.3/s Avg:  6791 Min:     0 Max: 14439 Err:    14 (0.04%) 
+2015/01/15 07:45:30 INFO  - jmeter.reporters.Summariser: summary +    226 in  36.4s =    6.2/s Avg:  6707 Min:  5768 Max:  7580 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:45:30 INFO  - jmeter.reporters.Summariser: summary =  35276 in  4807s =    7.3/s Avg:  6790 Min:     0 Max: 14439 Err:    14 (0.04%) 
+2015/01/15 07:46:00 INFO  - jmeter.reporters.Summariser: summary +    219 in    37s =    6.0/s Avg:  6637 Min:  5252 Max:  7460 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:46:00 INFO  - jmeter.reporters.Summariser: summary =  35495 in  4837s =    7.3/s Avg:  6789 Min:     0 Max: 14439 Err:    14 (0.04%) 
+2015/01/15 07:46:30 INFO  - jmeter.reporters.Summariser: summary +    238 in    37s =    6.5/s Avg:  6654 Min:  5827 Max:  7597 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:46:30 INFO  - jmeter.reporters.Summariser: summary =  35733 in  4867s =    7.3/s Avg:  6788 Min:     0 Max: 14439 Err:    14 (0.04%) 
+2015/01/15 07:47:00 INFO  - jmeter.reporters.Summariser: summary +    216 in  37.2s =    5.8/s Avg:  6757 Min:  5936 Max:  7585 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:47:00 INFO  - jmeter.reporters.Summariser: summary =  35949 in  4898s =    7.3/s Avg:  6788 Min:     0 Max: 14439 Err:    14 (0.04%) 
+2015/01/15 07:47:30 INFO  - jmeter.reporters.Summariser: summary +    226 in  36.2s =    6.2/s Avg:  6688 Min:  5732 Max:  7419 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:47:30 INFO  - jmeter.reporters.Summariser: summary =  36175 in  4927s =    7.3/s Avg:  6788 Min:     0 Max: 14439 Err:    14 (0.04%) 
+2015/01/15 07:48:00 INFO  - jmeter.reporters.Summariser: summary +    219 in  37.1s =    5.9/s Avg:  6728 Min:  5907 Max:  7936 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:48:00 INFO  - jmeter.reporters.Summariser: summary =  36394 in  4958s =    7.3/s Avg:  6787 Min:     0 Max: 14439 Err:    14 (0.04%) 
+2015/01/15 07:48:30 INFO  - jmeter.reporters.Summariser: summary +    211 in    37s =    5.7/s Avg:  7066 Min:  6070 Max:  8102 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:48:30 INFO  - jmeter.reporters.Summariser: summary =  36605 in  4987s =    7.3/s Avg:  6789 Min:     0 Max: 14439 Err:    14 (0.04%) 
+2015/01/15 07:49:00 INFO  - jmeter.reporters.Summariser: summary +    221 in  37.3s =    5.9/s Avg:  6739 Min:  5080 Max:  7703 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:49:00 INFO  - jmeter.reporters.Summariser: summary =  36826 in  5017s =    7.3/s Avg:  6789 Min:     0 Max: 14439 Err:    14 (0.04%) 
+2015/01/15 07:49:30 INFO  - jmeter.reporters.Summariser: summary +    236 in  37.1s =    6.4/s Avg:  6655 Min:  5624 Max:  7505 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:49:30 INFO  - jmeter.reporters.Summariser: summary =  37062 in  5047s =    7.3/s Avg:  6788 Min:     0 Max: 14439 Err:    14 (0.04%) 
+2015/01/15 07:50:00 INFO  - jmeter.reporters.Summariser: summary +    215 in    37s =    5.9/s Avg:  6627 Min:  5433 Max:  7409 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:50:00 INFO  - jmeter.reporters.Summariser: summary =  37277 in  5077s =    7.3/s Avg:  6787 Min:     0 Max: 14439 Err:    14 (0.04%) 
+2015/01/15 07:50:30 INFO  - jmeter.reporters.Summariser: summary +    239 in    37s =    6.5/s Avg:  6669 Min:  5756 Max:  7506 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:50:30 INFO  - jmeter.reporters.Summariser: summary =  37516 in  5107s =    7.3/s Avg:  6786 Min:     0 Max: 14439 Err:    14 (0.04%) 
+2015/01/15 07:51:00 INFO  - jmeter.reporters.Summariser: summary +    212 in  36.3s =    5.8/s Avg:  6625 Min:  5499 Max:  7304 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:51:00 INFO  - jmeter.reporters.Summariser: summary =  37728 in  5137s =    7.3/s Avg:  6785 Min:     0 Max: 14439 Err:    14 (0.04%) 
+2015/01/15 07:51:30 INFO  - jmeter.reporters.Summariser: summary +    237 in  36.4s =    6.5/s Avg:  6676 Min:  5447 Max:  7498 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:51:30 INFO  - jmeter.reporters.Summariser: summary =  37965 in  5167s =    7.3/s Avg:  6784 Min:     0 Max: 14439 Err:    14 (0.04%) 
+2015/01/15 07:52:00 INFO  - jmeter.reporters.Summariser: summary +    220 in    37s =    6.0/s Avg:  6625 Min:  5300 Max:  7451 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:52:00 INFO  - jmeter.reporters.Summariser: summary =  38185 in  5197s =    7.3/s Avg:  6784 Min:     0 Max: 14439 Err:    14 (0.04%) 
+2015/01/15 07:52:30 INFO  - jmeter.reporters.Summariser: summary +    226 in  36.1s =    6.3/s Avg:  6652 Min:  5938 Max:  7298 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:52:30 INFO  - jmeter.reporters.Summariser: summary =  38411 in  5227s =    7.3/s Avg:  6783 Min:     0 Max: 14439 Err:    14 (0.04%) 
+2015/01/15 07:53:00 INFO  - jmeter.reporters.Summariser: summary +    231 in  37.1s =    6.2/s Avg:  6638 Min:  5489 Max:  7496 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:53:00 INFO  - jmeter.reporters.Summariser: summary =  38642 in  5257s =    7.4/s Avg:  6782 Min:     0 Max: 14439 Err:    14 (0.04%) 
+2015/01/15 07:53:30 INFO  - jmeter.reporters.Summariser: summary +    212 in    36s =    6.0/s Avg:  6657 Min:  5800 Max:  7406 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:53:30 INFO  - jmeter.reporters.Summariser: summary =  38854 in  5287s =    7.3/s Avg:  6781 Min:     0 Max: 14439 Err:    14 (0.04%) 
+2015/01/15 07:54:00 INFO  - jmeter.reporters.Summariser: summary +    243 in    37s =    6.6/s Avg:  6666 Min:  3717 Max:  7880 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:54:00 INFO  - jmeter.reporters.Summariser: summary =  39097 in  5317s =    7.4/s Avg:  6780 Min:     0 Max: 14439 Err:    14 (0.04%) 
+2015/01/15 07:54:30 INFO  - jmeter.reporters.Summariser: summary +    213 in  37.4s =    5.7/s Avg:  6648 Min:  4483 Max:  7521 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:54:30 INFO  - jmeter.reporters.Summariser: summary =  39310 in  5348s =    7.4/s Avg:  6780 Min:     0 Max: 14439 Err:    14 (0.04%) 
+2015/01/15 07:55:00 INFO  - jmeter.reporters.Summariser: summary +    231 in  36.3s =    6.4/s Avg:  6654 Min:  5681 Max:  7385 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:55:00 INFO  - jmeter.reporters.Summariser: summary =  39541 in  5377s =    7.4/s Avg:  6779 Min:     0 Max: 14439 Err:    14 (0.04%) 
+2015/01/15 07:55:30 INFO  - jmeter.reporters.Summariser: summary +    222 in    37s =    6.1/s Avg:  6644 Min:  5789 Max:  7436 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:55:30 INFO  - jmeter.reporters.Summariser: summary =  39763 in  5407s =    7.4/s Avg:  6778 Min:     0 Max: 14439 Err:    14 (0.04%) 
+2015/01/15 07:56:00 INFO  - jmeter.reporters.Summariser: summary +    212 in    37s =    5.8/s Avg:  6836 Min:  5913 Max:  8180 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:56:00 INFO  - jmeter.reporters.Summariser: summary =  39975 in  5437s =    7.4/s Avg:  6779 Min:     0 Max: 14439 Err:    14 (0.04%) 
+2015/01/15 07:56:30 INFO  - jmeter.reporters.Summariser: summary +    225 in  37.5s =    6.0/s Avg:  7044 Min:  5783 Max:  8097 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:56:30 INFO  - jmeter.reporters.Summariser: summary =  40200 in  5468s =    7.4/s Avg:  6780 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 07:57:00 INFO  - jmeter.reporters.Summariser: summary +    225 in    37s =    6.1/s Avg:  6622 Min:  5833 Max:  7285 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:57:00 INFO  - jmeter.reporters.Summariser: summary =  40425 in  5497s =    7.4/s Avg:  6779 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 07:57:30 INFO  - jmeter.reporters.Summariser: summary +    217 in  36.3s =    6.0/s Avg:  6663 Min:  5674 Max:  7337 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:57:30 INFO  - jmeter.reporters.Summariser: summary =  40642 in  5527s =    7.4/s Avg:  6779 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 07:58:00 INFO  - jmeter.reporters.Summariser: summary +    232 in  36.3s =    6.4/s Avg:  6671 Min:  5633 Max:  7476 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:58:00 INFO  - jmeter.reporters.Summariser: summary =  40874 in  5557s =    7.4/s Avg:  6778 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 07:58:30 INFO  - jmeter.reporters.Summariser: summary +    221 in    37s =    6.0/s Avg:  6625 Min:  5449 Max:  7418 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:58:30 INFO  - jmeter.reporters.Summariser: summary =  41095 in  5588s =    7.4/s Avg:  6777 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 07:59:00 INFO  - jmeter.reporters.Summariser: summary +    231 in    37s =    6.3/s Avg:  6633 Min:  5329 Max:  7977 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:59:00 INFO  - jmeter.reporters.Summariser: summary =  41326 in  5617s =    7.4/s Avg:  6776 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 07:59:30 INFO  - jmeter.reporters.Summariser: summary +    221 in    37s =    6.0/s Avg:  6706 Min:  5723 Max:  7853 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 07:59:30 INFO  - jmeter.reporters.Summariser: summary =  41547 in  5647s =    7.4/s Avg:  6776 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:00:00 INFO  - jmeter.reporters.Summariser: summary +    224 in    37s =    6.1/s Avg:  6692 Min:  6038 Max:  7721 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:00:00 INFO  - jmeter.reporters.Summariser: summary =  41771 in  5677s =    7.4/s Avg:  6776 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:00:30 INFO  - jmeter.reporters.Summariser: summary +    227 in    37s =    6.2/s Avg:  6688 Min:  5672 Max:  7587 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:00:30 INFO  - jmeter.reporters.Summariser: summary =  41998 in  5707s =    7.4/s Avg:  6775 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:01:00 INFO  - jmeter.reporters.Summariser: summary +    223 in    37s =    6.1/s Avg:  6652 Min:  5902 Max:  7566 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:01:00 INFO  - jmeter.reporters.Summariser: summary =  42221 in  5737s =    7.4/s Avg:  6774 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:01:30 INFO  - jmeter.reporters.Summariser: summary +    220 in    37s =    6.0/s Avg:  6654 Min:  5512 Max:  7556 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:01:30 INFO  - jmeter.reporters.Summariser: summary =  42441 in  5767s =    7.4/s Avg:  6774 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:02:00 INFO  - jmeter.reporters.Summariser: summary +    232 in    37s =    6.3/s Avg:  6675 Min:  5700 Max:  7517 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:02:00 INFO  - jmeter.reporters.Summariser: summary =  42673 in  5797s =    7.4/s Avg:  6773 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:02:30 INFO  - jmeter.reporters.Summariser: summary +    224 in    37s =    6.1/s Avg:  6635 Min:  5791 Max:  7457 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:02:30 INFO  - jmeter.reporters.Summariser: summary =  42897 in  5827s =    7.4/s Avg:  6773 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:03:00 INFO  - jmeter.reporters.Summariser: summary +    223 in    37s =    6.0/s Avg:  6656 Min:  5865 Max:  7605 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:03:00 INFO  - jmeter.reporters.Summariser: summary =  43120 in  5857s =    7.4/s Avg:  6772 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:03:30 INFO  - jmeter.reporters.Summariser: summary +    226 in    37s =    6.1/s Avg:  6758 Min:  5948 Max:  7553 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:03:30 INFO  - jmeter.reporters.Summariser: summary =  43346 in  5887s =    7.4/s Avg:  6772 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:04:00 INFO  - jmeter.reporters.Summariser: summary +    221 in  37.5s =    5.9/s Avg:  6625 Min:  4900 Max:  7959 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:04:00 INFO  - jmeter.reporters.Summariser: summary =  43567 in  5918s =    7.4/s Avg:  6771 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:04:30 INFO  - jmeter.reporters.Summariser: summary +    232 in  36.1s =    6.4/s Avg:  6665 Min:  5737 Max:  7497 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:04:30 INFO  - jmeter.reporters.Summariser: summary =  43799 in  5947s =    7.4/s Avg:  6771 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:05:00 INFO  - jmeter.reporters.Summariser: summary +    224 in    37s =    6.1/s Avg:  6657 Min:  5924 Max:  7447 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:05:00 INFO  - jmeter.reporters.Summariser: summary =  44023 in  5977s =    7.4/s Avg:  6770 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:05:30 INFO  - jmeter.reporters.Summariser: summary +    221 in    37s =    6.0/s Avg:  6661 Min:  5652 Max:  7425 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:05:30 INFO  - jmeter.reporters.Summariser: summary =  44244 in  6007s =    7.4/s Avg:  6769 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:06:00 INFO  - jmeter.reporters.Summariser: summary +    230 in    37s =    6.3/s Avg:  6637 Min:  5648 Max:  7473 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:06:00 INFO  - jmeter.reporters.Summariser: summary =  44474 in  6037s =    7.4/s Avg:  6769 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:06:30 INFO  - jmeter.reporters.Summariser: summary +    222 in    37s =    6.0/s Avg:  6669 Min:  5816 Max:  7462 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:06:30 INFO  - jmeter.reporters.Summariser: summary =  44696 in  6068s =    7.4/s Avg:  6768 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:07:00 INFO  - jmeter.reporters.Summariser: summary +    228 in  36.3s =    6.3/s Avg:  6639 Min:  5747 Max:  8048 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:07:00 INFO  - jmeter.reporters.Summariser: summary =  44924 in  6097s =    7.4/s Avg:  6768 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:07:30 INFO  - jmeter.reporters.Summariser: summary +    224 in  37.4s =    6.0/s Avg:  6689 Min:  5412 Max:  7610 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:07:30 INFO  - jmeter.reporters.Summariser: summary =  45148 in  6127s =    7.4/s Avg:  6767 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:08:00 INFO  - jmeter.reporters.Summariser: summary +    227 in    37s =    6.2/s Avg:  6663 Min:  5867 Max:  7521 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:08:00 INFO  - jmeter.reporters.Summariser: summary =  45375 in  6157s =    7.4/s Avg:  6767 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:08:30 INFO  - jmeter.reporters.Summariser: summary +    218 in  37.1s =    5.9/s Avg:  6729 Min:  5969 Max:  7936 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:08:30 INFO  - jmeter.reporters.Summariser: summary =  45593 in  6187s =    7.4/s Avg:  6766 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:09:00 INFO  - jmeter.reporters.Summariser: summary +    210 in  37.2s =    5.7/s Avg:  7247 Min:  5648 Max:  8705 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:09:00 INFO  - jmeter.reporters.Summariser: summary =  45803 in  6217s =    7.4/s Avg:  6769 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:09:30 INFO  - jmeter.reporters.Summariser: summary +    223 in    37s =    6.0/s Avg:  6748 Min:  5921 Max:  7987 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:09:30 INFO  - jmeter.reporters.Summariser: summary =  46026 in  6247s =    7.4/s Avg:  6769 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:10:00 INFO  - jmeter.reporters.Summariser: summary +    222 in  36.3s =    6.1/s Avg:  6639 Min:  5710 Max:  7524 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:10:00 INFO  - jmeter.reporters.Summariser: summary =  46248 in  6277s =    7.4/s Avg:  6768 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:10:30 INFO  - jmeter.reporters.Summariser: summary +    227 in    37s =    6.2/s Avg:  6664 Min:  5606 Max:  7592 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:10:30 INFO  - jmeter.reporters.Summariser: summary =  46475 in  6307s =    7.4/s Avg:  6767 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:11:00 INFO  - jmeter.reporters.Summariser: summary +    224 in    37s =    6.1/s Avg:  6663 Min:  5243 Max:  7505 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:11:00 INFO  - jmeter.reporters.Summariser: summary =  46699 in  6337s =    7.4/s Avg:  6767 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:11:30 INFO  - jmeter.reporters.Summariser: summary +    228 in    37s =    6.2/s Avg:  6674 Min:  6005 Max:  7507 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:11:30 INFO  - jmeter.reporters.Summariser: summary =  46927 in  6367s =    7.4/s Avg:  6766 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:12:00 INFO  - jmeter.reporters.Summariser: summary +    224 in  37.2s =    6.0/s Avg:  6637 Min:  5622 Max:  7436 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:12:00 INFO  - jmeter.reporters.Summariser: summary =  47151 in  6397s =    7.4/s Avg:  6766 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:12:30 INFO  - jmeter.reporters.Summariser: summary +    230 in    37s =    6.3/s Avg:  6665 Min:  5937 Max:  7333 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:12:30 INFO  - jmeter.reporters.Summariser: summary =  47381 in  6427s =    7.4/s Avg:  6765 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:13:00 INFO  - jmeter.reporters.Summariser: summary +    225 in    37s =    6.1/s Avg:  6637 Min:  5424 Max:  7573 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:13:00 INFO  - jmeter.reporters.Summariser: summary =  47606 in  6457s =    7.4/s Avg:  6765 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:13:30 INFO  - jmeter.reporters.Summariser: summary +    220 in  35.5s =    6.2/s Avg:  6661 Min:  5674 Max:  7547 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:13:30 INFO  - jmeter.reporters.Summariser: summary =  47826 in  6487s =    7.4/s Avg:  6764 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:14:00 INFO  - jmeter.reporters.Summariser: summary +    230 in    37s =    6.3/s Avg:  6665 Min:  5157 Max:  7626 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:14:00 INFO  - jmeter.reporters.Summariser: summary =  48056 in  6517s =    7.4/s Avg:  6764 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:14:30 INFO  - jmeter.reporters.Summariser: summary +    220 in  36.3s =    6.1/s Avg:  6676 Min:  5445 Max:  7484 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:14:30 INFO  - jmeter.reporters.Summariser: summary =  48276 in  6547s =    7.4/s Avg:  6763 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:15:00 INFO  - jmeter.reporters.Summariser: summary +    226 in  37.1s =    6.1/s Avg:  6763 Min:  5560 Max:  8228 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:15:00 INFO  - jmeter.reporters.Summariser: summary =  48502 in  6577s =    7.4/s Avg:  6763 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:15:30 INFO  - jmeter.reporters.Summariser: summary +    211 in  37.4s =    5.6/s Avg:  7066 Min:  6206 Max:  8103 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:15:30 INFO  - jmeter.reporters.Summariser: summary =  48713 in  6608s =    7.4/s Avg:  6765 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:16:00 INFO  - jmeter.reporters.Summariser: summary +    220 in    37s =    6.0/s Avg:  6692 Min:  5546 Max:  7688 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:16:00 INFO  - jmeter.reporters.Summariser: summary =  48933 in  6637s =    7.4/s Avg:  6764 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:16:30 INFO  - jmeter.reporters.Summariser: summary +    232 in    37s =    6.3/s Avg:  6685 Min:  5841 Max:  7345 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:16:30 INFO  - jmeter.reporters.Summariser: summary =  49165 in  6667s =    7.4/s Avg:  6764 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:17:00 INFO  - jmeter.reporters.Summariser: summary +    222 in  36.4s =    6.1/s Avg:  6641 Min:  5792 Max:  7378 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:17:00 INFO  - jmeter.reporters.Summariser: summary =  49387 in  6697s =    7.4/s Avg:  6763 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:17:30 INFO  - jmeter.reporters.Summariser: summary +    221 in    37s =    6.0/s Avg:  6661 Min:  5757 Max:  7536 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:17:30 INFO  - jmeter.reporters.Summariser: summary =  49608 in  6727s =    7.4/s Avg:  6763 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:18:00 INFO  - jmeter.reporters.Summariser: summary +    235 in  37.4s =    6.3/s Avg:  6635 Min:  5724 Max:  7567 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:18:00 INFO  - jmeter.reporters.Summariser: summary =  49843 in  6758s =    7.4/s Avg:  6762 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:18:30 INFO  - jmeter.reporters.Summariser: summary +    218 in  36.4s =    6.0/s Avg:  6667 Min:  5611 Max:  7528 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:18:30 INFO  - jmeter.reporters.Summariser: summary =  50061 in  6787s =    7.4/s Avg:  6762 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:19:00 INFO  - jmeter.reporters.Summariser: summary +    229 in    37s =    6.3/s Avg:  6657 Min:  5867 Max:  8224 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:19:00 INFO  - jmeter.reporters.Summariser: summary =  50290 in  6817s =    7.4/s Avg:  6762 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:19:30 INFO  - jmeter.reporters.Summariser: summary +    224 in  37.2s =    6.0/s Avg:  6675 Min:  5260 Max:  7725 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:19:30 INFO  - jmeter.reporters.Summariser: summary =  50514 in  6848s =    7.4/s Avg:  6761 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:20:00 INFO  - jmeter.reporters.Summariser: summary +    226 in    36s =    6.3/s Avg:  6671 Min:  5649 Max:  7508 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:20:00 INFO  - jmeter.reporters.Summariser: summary =  50740 in  6877s =    7.4/s Avg:  6761 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:20:30 INFO  - jmeter.reporters.Summariser: summary +    222 in    37s =    6.0/s Avg:  6673 Min:  5072 Max:  7440 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:20:30 INFO  - jmeter.reporters.Summariser: summary =  50962 in  6907s =    7.4/s Avg:  6760 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:21:00 INFO  - jmeter.reporters.Summariser: summary +    225 in    37s =    6.1/s Avg:  6666 Min:  5714 Max:  7698 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:21:00 INFO  - jmeter.reporters.Summariser: summary =  51187 in  6937s =    7.4/s Avg:  6760 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:21:30 INFO  - jmeter.reporters.Summariser: summary +    214 in  36.4s =    5.9/s Avg:  6941 Min:  5777 Max:  8104 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:21:30 INFO  - jmeter.reporters.Summariser: summary =  51401 in  6967s =    7.4/s Avg:  6761 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:22:00 INFO  - jmeter.reporters.Summariser: summary +    218 in    38s =    5.8/s Avg:  6974 Min:  5743 Max:  8100 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:22:00 INFO  - jmeter.reporters.Summariser: summary =  51619 in  6997s =    7.4/s Avg:  6762 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:22:30 INFO  - jmeter.reporters.Summariser: summary +    223 in    37s =    6.0/s Avg:  6763 Min:  5899 Max:  7503 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:22:30 INFO  - jmeter.reporters.Summariser: summary =  51842 in  7028s =    7.4/s Avg:  6762 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:23:00 INFO  - jmeter.reporters.Summariser: summary +    220 in    37s =    6.0/s Avg:  6654 Min:  5850 Max:  7545 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:23:00 INFO  - jmeter.reporters.Summariser: summary =  52062 in  7057s =    7.4/s Avg:  6761 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:23:30 INFO  - jmeter.reporters.Summariser: summary +    228 in    37s =    6.2/s Avg:  6678 Min:  5933 Max:  7810 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:23:30 INFO  - jmeter.reporters.Summariser: summary =  52290 in  7087s =    7.4/s Avg:  6761 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:24:00 INFO  - jmeter.reporters.Summariser: summary +    222 in  37.1s =    6.0/s Avg:  6642 Min:  4888 Max:  7747 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:24:00 INFO  - jmeter.reporters.Summariser: summary =  52512 in  7117s =    7.4/s Avg:  6760 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:24:30 INFO  - jmeter.reporters.Summariser: summary +    220 in  36.3s =    6.1/s Avg:  6734 Min:  5940 Max:  7584 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:24:30 INFO  - jmeter.reporters.Summariser: summary =  52732 in  7147s =    7.4/s Avg:  6760 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:25:00 INFO  - jmeter.reporters.Summariser: summary +    218 in  37.1s =    5.9/s Avg:  7123 Min:  5926 Max:  8185 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:25:00 INFO  - jmeter.reporters.Summariser: summary =  52950 in  7177s =    7.4/s Avg:  6762 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:25:30 INFO  - jmeter.reporters.Summariser: summary +    220 in    37s =    5.9/s Avg:  6807 Min:  5996 Max:  7700 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:25:30 INFO  - jmeter.reporters.Summariser: summary =  53170 in  7207s =    7.4/s Avg:  6762 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:26:00 INFO  - jmeter.reporters.Summariser: summary +    215 in    37s =    5.9/s Avg:  6815 Min:  5565 Max:  7645 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:26:00 INFO  - jmeter.reporters.Summariser: summary =  53385 in  7237s =    7.4/s Avg:  6762 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:26:30 INFO  - jmeter.reporters.Summariser: summary +    224 in    37s =    6.1/s Avg:  6796 Min:  5736 Max:  7535 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:26:30 INFO  - jmeter.reporters.Summariser: summary =  53609 in  7267s =    7.4/s Avg:  6762 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:27:00 INFO  - jmeter.reporters.Summariser: summary +    223 in  37.4s =    6.0/s Avg:  6754 Min:  5693 Max:  7595 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:27:00 INFO  - jmeter.reporters.Summariser: summary =  53832 in  7298s =    7.4/s Avg:  6762 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:27:30 INFO  - jmeter.reporters.Summariser: summary +    223 in  36.3s =    6.2/s Avg:  6812 Min:  5788 Max:  7563 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:27:30 INFO  - jmeter.reporters.Summariser: summary =  54055 in  7327s =    7.4/s Avg:  6762 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:28:00 INFO  - jmeter.reporters.Summariser: summary +    220 in    37s =    6.0/s Avg:  6770 Min:  5543 Max:  7746 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:28:00 INFO  - jmeter.reporters.Summariser: summary =  54275 in  7357s =    7.4/s Avg:  6762 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:28:30 INFO  - jmeter.reporters.Summariser: summary +    217 in    37s =    5.9/s Avg:  6789 Min:  5756 Max:  7528 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:28:30 INFO  - jmeter.reporters.Summariser: summary =  54492 in  7387s =    7.4/s Avg:  6763 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:29:00 INFO  - jmeter.reporters.Summariser: summary +    223 in  37.1s =    6.0/s Avg:  6762 Min:  5296 Max:  8262 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:29:00 INFO  - jmeter.reporters.Summariser: summary =  54715 in  7418s =    7.4/s Avg:  6763 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:29:30 INFO  - jmeter.reporters.Summariser: summary +    221 in  36.2s =    6.1/s Avg:  6811 Min:  6013 Max:  7542 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:29:30 INFO  - jmeter.reporters.Summariser: summary =  54936 in  7447s =    7.4/s Avg:  6763 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:30:00 INFO  - jmeter.reporters.Summariser: summary +    226 in    37s =    6.2/s Avg:  6797 Min:  5553 Max:  7552 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:30:00 INFO  - jmeter.reporters.Summariser: summary =  55162 in  7477s =    7.4/s Avg:  6763 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:30:30 INFO  - jmeter.reporters.Summariser: summary +    216 in    37s =    5.9/s Avg:  6778 Min:  5339 Max:  7828 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:30:30 INFO  - jmeter.reporters.Summariser: summary =  55378 in  7508s =    7.4/s Avg:  6763 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:31:00 INFO  - jmeter.reporters.Summariser: summary +    221 in  36.2s =    6.1/s Avg:  6781 Min:  5850 Max:  7748 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:31:00 INFO  - jmeter.reporters.Summariser: summary =  55599 in  7538s =    7.4/s Avg:  6763 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:31:30 INFO  - jmeter.reporters.Summariser: summary +    224 in    37s =    6.1/s Avg:  6812 Min:  5348 Max:  7560 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:31:30 INFO  - jmeter.reporters.Summariser: summary =  55823 in  7567s =    7.4/s Avg:  6763 Min:     0 Max: 14439 Err:    14 (0.03%) 
+2015/01/15 08:32:00 INFO  - jmeter.reporters.Summariser: summary +    221 in    37s =    6.0/s Avg:  6732 Min:  5816 Max:  8040 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:32:00 INFO  - jmeter.reporters.Summariser: summary =  56044 in  7598s =    7.4/s Avg:  6763 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:32:30 INFO  - jmeter.reporters.Summariser: summary +    225 in    37s =    6.2/s Avg:  6614 Min:  5718 Max:  7410 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:32:30 INFO  - jmeter.reporters.Summariser: summary =  56269 in  7627s =    7.4/s Avg:  6762 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:33:00 INFO  - jmeter.reporters.Summariser: summary +    226 in    37s =    6.1/s Avg:  6694 Min:  6003 Max:  7629 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:33:00 INFO  - jmeter.reporters.Summariser: summary =  56495 in  7657s =    7.4/s Avg:  6762 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:33:30 INFO  - jmeter.reporters.Summariser: summary +    217 in  37.1s =    5.8/s Avg:  6725 Min:  5861 Max:  7479 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:33:30 INFO  - jmeter.reporters.Summariser: summary =  56712 in  7687s =    7.4/s Avg:  6762 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:34:00 INFO  - jmeter.reporters.Summariser: summary +    231 in    37s =    6.3/s Avg:  6683 Min:  5801 Max:  7877 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:34:00 INFO  - jmeter.reporters.Summariser: summary =  56943 in  7717s =    7.4/s Avg:  6762 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:34:30 INFO  - jmeter.reporters.Summariser: summary +    208 in    37s =    5.6/s Avg:  7118 Min:  6234 Max:  8523 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:34:30 INFO  - jmeter.reporters.Summariser: summary =  57151 in  7747s =    7.4/s Avg:  6763 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:35:00 INFO  - jmeter.reporters.Summariser: summary +    218 in  37.2s =    5.9/s Avg:  6878 Min:  5601 Max:  8150 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:35:00 INFO  - jmeter.reporters.Summariser: summary =  57369 in  7777s =    7.4/s Avg:  6763 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:35:30 INFO  - jmeter.reporters.Summariser: summary +    227 in    37s =    6.2/s Avg:  6780 Min:  5638 Max:  8072 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:35:30 INFO  - jmeter.reporters.Summariser: summary =  57596 in  7807s =    7.4/s Avg:  6764 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:36:00 INFO  - jmeter.reporters.Summariser: summary +    217 in    37s =    5.9/s Avg:  6652 Min:  5568 Max:  7620 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:36:00 INFO  - jmeter.reporters.Summariser: summary =  57813 in  7837s =    7.4/s Avg:  6763 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:36:30 INFO  - jmeter.reporters.Summariser: summary +    226 in    37s =    6.2/s Avg:  6662 Min:  5820 Max:  8015 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:36:30 INFO  - jmeter.reporters.Summariser: summary =  58039 in  7867s =    7.4/s Avg:  6763 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:37:00 INFO  - jmeter.reporters.Summariser: summary +    230 in    37s =    6.2/s Avg:  6607 Min:  5564 Max:  7728 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:37:00 INFO  - jmeter.reporters.Summariser: summary =  58269 in  7897s =    7.4/s Avg:  6762 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:37:30 INFO  - jmeter.reporters.Summariser: summary +    226 in    37s =    6.1/s Avg:  6659 Min:  5418 Max:  7607 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:37:30 INFO  - jmeter.reporters.Summariser: summary =  58495 in  7927s =    7.4/s Avg:  6762 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:38:00 INFO  - jmeter.reporters.Summariser: summary +    228 in    37s =    6.2/s Avg:  6631 Min:  5551 Max:  7673 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:38:00 INFO  - jmeter.reporters.Summariser: summary =  58723 in  7957s =    7.4/s Avg:  6761 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:38:30 INFO  - jmeter.reporters.Summariser: summary +    220 in  36.3s =    6.1/s Avg:  6636 Min:  5658 Max:  7351 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:38:30 INFO  - jmeter.reporters.Summariser: summary =  58943 in  7987s =    7.4/s Avg:  6761 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:39:00 INFO  - jmeter.reporters.Summariser: summary +    237 in    37s =    6.4/s Avg:  6646 Min:  5670 Max:  8457 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:39:00 INFO  - jmeter.reporters.Summariser: summary =  59180 in  8018s =    7.4/s Avg:  6760 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:39:30 INFO  - jmeter.reporters.Summariser: summary +    210 in  35.4s =    5.9/s Avg:  6629 Min:  3562 Max:  8295 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:39:30 INFO  - jmeter.reporters.Summariser: summary =  59390 in  8048s =    7.4/s Avg:  6760 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:40:00 INFO  - jmeter.reporters.Summariser: summary +    243 in  36.4s =    6.7/s Avg:  6658 Min:  5494 Max:  7499 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:40:00 INFO  - jmeter.reporters.Summariser: summary =  59633 in  8077s =    7.4/s Avg:  6759 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:40:30 INFO  - jmeter.reporters.Summariser: summary +    215 in  37.4s =    5.8/s Avg:  6634 Min:  5527 Max:  7558 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:40:30 INFO  - jmeter.reporters.Summariser: summary =  59848 in  8108s =    7.4/s Avg:  6759 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:41:00 INFO  - jmeter.reporters.Summariser: summary +    222 in    36s =    6.2/s Avg:  6654 Min:  5603 Max:  7743 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:41:00 INFO  - jmeter.reporters.Summariser: summary =  60070 in  8137s =    7.4/s Avg:  6759 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:41:30 INFO  - jmeter.reporters.Summariser: summary +    233 in    37s =    6.3/s Avg:  6660 Min:  5712 Max:  7389 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:41:30 INFO  - jmeter.reporters.Summariser: summary =  60303 in  8167s =    7.4/s Avg:  6758 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:42:00 INFO  - jmeter.reporters.Summariser: summary +    212 in    37s =    5.8/s Avg:  6647 Min:  3847 Max:  8555 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:42:00 INFO  - jmeter.reporters.Summariser: summary =  60515 in  8197s =    7.4/s Avg:  6758 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:42:30 INFO  - jmeter.reporters.Summariser: summary +    213 in  36.5s =    5.8/s Avg:  7212 Min:  5897 Max:  8482 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:42:30 INFO  - jmeter.reporters.Summariser: summary =  60728 in  8227s =    7.4/s Avg:  6759 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:43:00 INFO  - jmeter.reporters.Summariser: summary +    236 in  37.1s =    6.4/s Avg:  6675 Min:  5797 Max:  7696 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:43:00 INFO  - jmeter.reporters.Summariser: summary =  60964 in  8257s =    7.4/s Avg:  6759 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:43:30 INFO  - jmeter.reporters.Summariser: summary +    215 in  37.4s =    5.8/s Avg:  6679 Min:  5603 Max:  7461 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:43:30 INFO  - jmeter.reporters.Summariser: summary =  61179 in  8288s =    7.4/s Avg:  6759 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:44:00 INFO  - jmeter.reporters.Summariser: summary +    226 in    37s =    6.2/s Avg:  6631 Min:  5163 Max:  7898 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:44:00 INFO  - jmeter.reporters.Summariser: summary =  61405 in  8318s =    7.4/s Avg:  6758 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:44:30 INFO  - jmeter.reporters.Summariser: summary +    225 in    37s =    6.1/s Avg:  6716 Min:  5737 Max:  7546 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:44:30 INFO  - jmeter.reporters.Summariser: summary =  61630 in  8347s =    7.4/s Avg:  6758 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:45:00 INFO  - jmeter.reporters.Summariser: summary +    224 in    37s =    6.1/s Avg:  6664 Min:  5460 Max:  7742 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:45:00 INFO  - jmeter.reporters.Summariser: summary =  61854 in  8377s =    7.4/s Avg:  6758 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:45:30 INFO  - jmeter.reporters.Summariser: summary +    235 in    37s =    6.4/s Avg:  6635 Min:  5575 Max:  7363 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:45:30 INFO  - jmeter.reporters.Summariser: summary =  62089 in  8407s =    7.4/s Avg:  6757 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:46:00 INFO  - jmeter.reporters.Summariser: summary +    218 in    37s =    5.9/s Avg:  6635 Min:  5728 Max:  7378 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:46:00 INFO  - jmeter.reporters.Summariser: summary =  62307 in  8437s =    7.4/s Avg:  6757 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:46:30 INFO  - jmeter.reporters.Summariser: summary +    224 in    37s =    6.1/s Avg:  6685 Min:  5200 Max:  7627 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:46:30 INFO  - jmeter.reporters.Summariser: summary =  62531 in  8467s =    7.4/s Avg:  6757 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:47:00 INFO  - jmeter.reporters.Summariser: summary +    221 in    37s =    6.0/s Avg:  6919 Min:  5950 Max:  8325 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:47:00 INFO  - jmeter.reporters.Summariser: summary =  62752 in  8497s =    7.4/s Avg:  6757 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:47:30 INFO  - jmeter.reporters.Summariser: summary +    217 in    38s =    5.8/s Avg:  6894 Min:  5491 Max:  8011 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:47:30 INFO  - jmeter.reporters.Summariser: summary =  62969 in  8528s =    7.4/s Avg:  6758 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:48:00 INFO  - jmeter.reporters.Summariser: summary +    216 in  36.5s =    5.9/s Avg:  6638 Min:  5036 Max:  7612 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:48:00 INFO  - jmeter.reporters.Summariser: summary =  63185 in  8557s =    7.4/s Avg:  6757 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:48:30 INFO  - jmeter.reporters.Summariser: summary +    239 in  37.1s =    6.4/s Avg:  6658 Min:  5693 Max:  7409 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:48:30 INFO  - jmeter.reporters.Summariser: summary =  63424 in  8587s =    7.4/s Avg:  6757 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:49:00 INFO  - jmeter.reporters.Summariser: summary +    215 in    36s =    6.0/s Avg:  6656 Min:  4998 Max:  8283 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:49:00 INFO  - jmeter.reporters.Summariser: summary =  63639 in  8617s =    7.4/s Avg:  6757 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:49:30 INFO  - jmeter.reporters.Summariser: summary +    235 in    37s =    6.4/s Avg:  6663 Min:  5776 Max:  7601 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:49:30 INFO  - jmeter.reporters.Summariser: summary =  63874 in  8648s =    7.4/s Avg:  6756 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:50:00 INFO  - jmeter.reporters.Summariser: summary +    222 in    37s =    6.0/s Avg:  6655 Min:  5807 Max:  7511 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:50:00 INFO  - jmeter.reporters.Summariser: summary =  64096 in  8678s =    7.4/s Avg:  6756 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:50:30 INFO  - jmeter.reporters.Summariser: summary +    217 in    36s =    6.1/s Avg:  6713 Min:  5942 Max:  7653 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:50:30 INFO  - jmeter.reporters.Summariser: summary =  64313 in  8707s =    7.4/s Avg:  6756 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:51:00 INFO  - jmeter.reporters.Summariser: summary +    234 in    37s =    6.3/s Avg:  6701 Min:  5951 Max:  7651 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:51:00 INFO  - jmeter.reporters.Summariser: summary =  64547 in  8737s =    7.4/s Avg:  6756 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:51:30 INFO  - jmeter.reporters.Summariser: summary +    212 in  37.4s =    5.7/s Avg:  6655 Min:  5608 Max:  7431 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:51:30 INFO  - jmeter.reporters.Summariser: summary =  64759 in  8767s =    7.4/s Avg:  6755 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:52:00 INFO  - jmeter.reporters.Summariser: summary +    239 in    37s =    6.5/s Avg:  6640 Min:  5486 Max:  7373 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:52:00 INFO  - jmeter.reporters.Summariser: summary =  64998 in  8797s =    7.4/s Avg:  6755 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:52:30 INFO  - jmeter.reporters.Summariser: summary +    219 in    37s =    6.0/s Avg:  6668 Min:  5744 Max:  7470 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:52:30 INFO  - jmeter.reporters.Summariser: summary =  65217 in  8827s =    7.4/s Avg:  6754 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:53:00 INFO  - jmeter.reporters.Summariser: summary +    229 in  36.3s =    6.3/s Avg:  6652 Min:  5925 Max:  7522 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:53:00 INFO  - jmeter.reporters.Summariser: summary =  65446 in  8857s =    7.4/s Avg:  6754 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:53:30 INFO  - jmeter.reporters.Summariser: summary +    224 in    38s =    5.9/s Avg:  6645 Min:  5756 Max:  7255 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:53:30 INFO  - jmeter.reporters.Summariser: summary =  65670 in  8888s =    7.4/s Avg:  6754 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:54:00 INFO  - jmeter.reporters.Summariser: summary +    223 in    36s =    6.2/s Avg:  6633 Min:  5139 Max:  7913 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:54:00 INFO  - jmeter.reporters.Summariser: summary =  65893 in  8917s =    7.4/s Avg:  6753 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:54:30 INFO  - jmeter.reporters.Summariser: summary +    221 in    37s =    6.0/s Avg:  6696 Min:  5264 Max:  7713 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:54:30 INFO  - jmeter.reporters.Summariser: summary =  66114 in  8947s =    7.4/s Avg:  6753 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:55:00 INFO  - jmeter.reporters.Summariser: summary +    236 in  37.4s =    6.3/s Avg:  6653 Min:  5624 Max:  7444 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:55:00 INFO  - jmeter.reporters.Summariser: summary =  66350 in  8977s =    7.4/s Avg:  6753 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:55:30 INFO  - jmeter.reporters.Summariser: summary +    213 in    37s =    5.8/s Avg:  6655 Min:  5656 Max:  7714 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:55:30 INFO  - jmeter.reporters.Summariser: summary =  66563 in  9008s =    7.4/s Avg:  6752 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:56:00 INFO  - jmeter.reporters.Summariser: summary +    235 in  36.4s =    6.5/s Avg:  6665 Min:  5613 Max:  7372 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:56:00 INFO  - jmeter.reporters.Summariser: summary =  66798 in  9037s =    7.4/s Avg:  6752 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:56:30 INFO  - jmeter.reporters.Summariser: summary +    223 in  37.4s =    6.0/s Avg:  6637 Min:  5448 Max:  7491 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:56:30 INFO  - jmeter.reporters.Summariser: summary =  67021 in  9068s =    7.4/s Avg:  6752 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:57:00 INFO  - jmeter.reporters.Summariser: summary +    219 in  36.1s =    6.1/s Avg:  6631 Min:  5800 Max:  7584 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:57:00 INFO  - jmeter.reporters.Summariser: summary =  67240 in  9097s =    7.4/s Avg:  6751 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:57:30 INFO  - jmeter.reporters.Summariser: summary +    236 in    38s =    6.3/s Avg:  6680 Min:  5576 Max:  8159 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:57:30 INFO  - jmeter.reporters.Summariser: summary =  67476 in  9127s =    7.4/s Avg:  6751 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:58:00 INFO  - jmeter.reporters.Summariser: summary +    217 in    37s =    5.9/s Avg:  6677 Min:  5712 Max:  7782 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:58:00 INFO  - jmeter.reporters.Summariser: summary =  67693 in  9157s =    7.4/s Avg:  6751 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:58:30 INFO  - jmeter.reporters.Summariser: summary +    234 in    37s =    6.4/s Avg:  6652 Min:  5566 Max:  7453 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:58:30 INFO  - jmeter.reporters.Summariser: summary =  67927 in  9188s =    7.4/s Avg:  6751 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:59:00 INFO  - jmeter.reporters.Summariser: summary +    213 in  37.3s =    5.7/s Avg:  6805 Min:  5720 Max:  8299 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:59:00 INFO  - jmeter.reporters.Summariser: summary =  68140 in  9218s =    7.4/s Avg:  6751 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 08:59:30 INFO  - jmeter.reporters.Summariser: summary +    210 in  36.2s =    5.8/s Avg:  6881 Min:  5934 Max:  7783 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 08:59:30 INFO  - jmeter.reporters.Summariser: summary =  68350 in  9247s =    7.4/s Avg:  6751 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:00:00 INFO  - jmeter.reporters.Summariser: summary +    219 in    37s =    5.9/s Avg:  6990 Min:  3453 Max:  8088 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:00:00 INFO  - jmeter.reporters.Summariser: summary =  68569 in  9277s =    7.4/s Avg:  6752 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:00:30 INFO  - jmeter.reporters.Summariser: summary +    238 in    37s =    6.4/s Avg:  6683 Min:  5669 Max:  7544 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:00:30 INFO  - jmeter.reporters.Summariser: summary =  68807 in  9308s =    7.4/s Avg:  6752 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:01:00 INFO  - jmeter.reporters.Summariser: summary +    210 in    36s =    5.9/s Avg:  6646 Min:  4262 Max:  8023 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:01:00 INFO  - jmeter.reporters.Summariser: summary =  69017 in  9337s =    7.4/s Avg:  6751 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:01:30 INFO  - jmeter.reporters.Summariser: summary +    237 in  36.5s =    6.5/s Avg:  6684 Min:  5548 Max:  7939 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:01:30 INFO  - jmeter.reporters.Summariser: summary =  69254 in  9367s =    7.4/s Avg:  6751 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:02:00 INFO  - jmeter.reporters.Summariser: summary +    221 in  37.4s =    5.9/s Avg:  6660 Min:  5754 Max:  7438 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:02:00 INFO  - jmeter.reporters.Summariser: summary =  69475 in  9397s =    7.4/s Avg:  6751 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:02:30 INFO  - jmeter.reporters.Summariser: summary +    224 in    37s =    6.1/s Avg:  6647 Min:  5711 Max:  7430 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:02:30 INFO  - jmeter.reporters.Summariser: summary =  69699 in  9427s =    7.4/s Avg:  6751 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:03:00 INFO  - jmeter.reporters.Summariser: summary +    230 in  37.1s =    6.2/s Avg:  6638 Min:  5941 Max:  7428 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:03:00 INFO  - jmeter.reporters.Summariser: summary =  69929 in  9457s =    7.4/s Avg:  6750 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:03:30 INFO  - jmeter.reporters.Summariser: summary +    214 in    37s =    5.8/s Avg:  6662 Min:  5673 Max:  7410 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:03:30 INFO  - jmeter.reporters.Summariser: summary =  70143 in  9488s =    7.4/s Avg:  6750 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:04:00 INFO  - jmeter.reporters.Summariser: summary +    242 in    37s =    6.6/s Avg:  6658 Min:  5502 Max:  7643 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:04:00 INFO  - jmeter.reporters.Summariser: summary =  70385 in  9517s =    7.4/s Avg:  6750 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:04:30 INFO  - jmeter.reporters.Summariser: summary +    212 in  37.1s =    5.7/s Avg:  6692 Min:  5993 Max:  7543 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:04:30 INFO  - jmeter.reporters.Summariser: summary =  70597 in  9548s =    7.4/s Avg:  6749 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:05:00 INFO  - jmeter.reporters.Summariser: summary +    231 in  36.2s =    6.4/s Avg:  6647 Min:  5548 Max:  7506 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:05:00 INFO  - jmeter.reporters.Summariser: summary =  70828 in  9577s =    7.4/s Avg:  6749 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:05:30 INFO  - jmeter.reporters.Summariser: summary +    223 in  37.1s =    6.0/s Avg:  6674 Min:  5648 Max:  7471 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:05:30 INFO  - jmeter.reporters.Summariser: summary =  71051 in  9607s =    7.4/s Avg:  6749 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:06:00 INFO  - jmeter.reporters.Summariser: summary +    223 in  36.4s =    6.1/s Avg:  6640 Min:  5437 Max:  7451 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:06:00 INFO  - jmeter.reporters.Summariser: summary =  71274 in  9637s =    7.4/s Avg:  6748 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:06:30 INFO  - jmeter.reporters.Summariser: summary +    228 in    38s =    6.1/s Avg:  6703 Min:  5849 Max:  9413 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:06:30 INFO  - jmeter.reporters.Summariser: summary =  71502 in  9667s =    7.4/s Avg:  6748 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:07:00 INFO  - jmeter.reporters.Summariser: summary +    222 in    38s =    5.9/s Avg:  6658 Min:  5723 Max:  7650 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:07:00 INFO  - jmeter.reporters.Summariser: summary =  71724 in  9697s =    7.4/s Avg:  6748 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:07:30 INFO  - jmeter.reporters.Summariser: summary +    219 in    37s =    6.0/s Avg:  6798 Min:  6029 Max:  7683 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:07:30 INFO  - jmeter.reporters.Summariser: summary =  71943 in  9727s =    7.4/s Avg:  6748 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:08:00 INFO  - jmeter.reporters.Summariser: summary +    226 in  37.2s =    6.1/s Avg:  6748 Min:  6005 Max:  7506 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:08:00 INFO  - jmeter.reporters.Summariser: summary =  72169 in  9757s =    7.4/s Avg:  6748 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:08:30 INFO  - jmeter.reporters.Summariser: summary +    223 in    37s =    6.1/s Avg:  6651 Min:  5708 Max:  7361 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:08:30 INFO  - jmeter.reporters.Summariser: summary =  72392 in  9787s =    7.4/s Avg:  6748 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:09:00 INFO  - jmeter.reporters.Summariser: summary +    230 in  37.1s =    6.2/s Avg:  6736 Min:  5857 Max:  7925 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:09:00 INFO  - jmeter.reporters.Summariser: summary =  72622 in  9817s =    7.4/s Avg:  6748 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:09:30 INFO  - jmeter.reporters.Summariser: summary +    210 in  36.4s =    5.8/s Avg:  7065 Min:  6060 Max:  8521 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:09:30 INFO  - jmeter.reporters.Summariser: summary =  72832 in  9847s =    7.4/s Avg:  6749 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:10:00 INFO  - jmeter.reporters.Summariser: summary +    217 in    37s =    5.9/s Avg:  6663 Min:  5296 Max:  8251 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:10:00 INFO  - jmeter.reporters.Summariser: summary =  73049 in  9877s =    7.4/s Avg:  6749 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:10:30 INFO  - jmeter.reporters.Summariser: summary +    235 in    37s =    6.4/s Avg:  6683 Min:  5566 Max:  7540 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:10:30 INFO  - jmeter.reporters.Summariser: summary =  73284 in  9907s =    7.4/s Avg:  6748 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:11:00 INFO  - jmeter.reporters.Summariser: summary +    221 in    37s =    6.0/s Avg:  6655 Min:  5821 Max:  7360 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:11:00 INFO  - jmeter.reporters.Summariser: summary =  73505 in  9937s =    7.4/s Avg:  6748 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:11:30 INFO  - jmeter.reporters.Summariser: summary +    222 in    37s =    6.1/s Avg:  6677 Min:  5739 Max:  7407 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:11:30 INFO  - jmeter.reporters.Summariser: summary =  73727 in  9967s =    7.4/s Avg:  6748 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:12:00 INFO  - jmeter.reporters.Summariser: summary +    232 in    38s =    6.2/s Avg:  6667 Min:  5993 Max:  7562 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:12:00 INFO  - jmeter.reporters.Summariser: summary =  73959 in  9998s =    7.4/s Avg:  6748 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:12:30 INFO  - jmeter.reporters.Summariser: summary +    204 in    36s =    5.7/s Avg:  7206 Min:  6009 Max:  8448 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:12:30 INFO  - jmeter.reporters.Summariser: summary =  74163 in 10028s =    7.4/s Avg:  6749 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:13:00 INFO  - jmeter.reporters.Summariser: summary +    214 in  36.4s =    5.9/s Avg:  6893 Min:  5652 Max:  8495 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:13:00 INFO  - jmeter.reporters.Summariser: summary =  74377 in 10058s =    7.4/s Avg:  6749 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:13:30 INFO  - jmeter.reporters.Summariser: summary +    233 in    37s =    6.4/s Avg:  6658 Min:  5335 Max:  7372 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:13:30 INFO  - jmeter.reporters.Summariser: summary =  74610 in 10087s =    7.4/s Avg:  6749 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:14:00 INFO  - jmeter.reporters.Summariser: summary +    221 in  37.1s =    6.0/s Avg:  6618 Min:  5079 Max:  7879 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:14:00 INFO  - jmeter.reporters.Summariser: summary =  74831 in 10117s =    7.4/s Avg:  6749 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:14:30 INFO  - jmeter.reporters.Summariser: summary +    217 in  36.3s =    6.0/s Avg:  6740 Min:  3778 Max:  8096 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:14:30 INFO  - jmeter.reporters.Summariser: summary =  75048 in 10147s =    7.4/s Avg:  6749 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:15:00 INFO  - jmeter.reporters.Summariser: summary +    241 in    37s =    6.5/s Avg:  6639 Min:  5361 Max:  7721 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:15:00 INFO  - jmeter.reporters.Summariser: summary =  75289 in 10177s =    7.4/s Avg:  6748 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:15:30 INFO  - jmeter.reporters.Summariser: summary +    216 in    37s =    5.9/s Avg:  6660 Min:  5777 Max:  7426 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:15:30 INFO  - jmeter.reporters.Summariser: summary =  75505 in 10207s =    7.4/s Avg:  6748 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:16:00 INFO  - jmeter.reporters.Summariser: summary +    232 in    37s =    6.3/s Avg:  6647 Min:  5670 Max:  7688 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:16:00 INFO  - jmeter.reporters.Summariser: summary =  75737 in 10237s =    7.4/s Avg:  6748 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:16:30 INFO  - jmeter.reporters.Summariser: summary +    222 in    37s =    6.1/s Avg:  6664 Min:  5755 Max:  7372 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:16:30 INFO  - jmeter.reporters.Summariser: summary =  75959 in 10267s =    7.4/s Avg:  6747 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:17:00 INFO  - jmeter.reporters.Summariser: summary +    220 in    37s =    6.0/s Avg:  6646 Min:  5695 Max:  7413 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:17:00 INFO  - jmeter.reporters.Summariser: summary =  76179 in 10297s =    7.4/s Avg:  6747 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:17:30 INFO  - jmeter.reporters.Summariser: summary +    234 in    37s =    6.4/s Avg:  6696 Min:  5766 Max:  7424 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:17:30 INFO  - jmeter.reporters.Summariser: summary =  76413 in 10327s =    7.4/s Avg:  6747 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:18:00 INFO  - jmeter.reporters.Summariser: summary +    216 in    37s =    5.9/s Avg:  6644 Min:  5558 Max:  7583 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:18:00 INFO  - jmeter.reporters.Summariser: summary =  76629 in 10357s =    7.4/s Avg:  6747 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:18:30 INFO  - jmeter.reporters.Summariser: summary +    230 in  36.2s =    6.3/s Avg:  6696 Min:  5881 Max:  7607 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:18:30 INFO  - jmeter.reporters.Summariser: summary =  76859 in 10388s =    7.4/s Avg:  6746 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:19:00 INFO  - jmeter.reporters.Summariser: summary +    223 in  37.1s =    6.0/s Avg:  6653 Min:  5311 Max:  7450 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:19:00 INFO  - jmeter.reporters.Summariser: summary =  77082 in 10417s =    7.4/s Avg:  6746 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:19:30 INFO  - jmeter.reporters.Summariser: summary +    220 in  36.4s =    6.0/s Avg:  6631 Min:  5383 Max:  7590 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:19:30 INFO  - jmeter.reporters.Summariser: summary =  77302 in 10447s =    7.4/s Avg:  6746 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:20:00 INFO  - jmeter.reporters.Summariser: summary +    235 in  37.2s =    6.3/s Avg:  6650 Min:  5447 Max:  7544 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:20:00 INFO  - jmeter.reporters.Summariser: summary =  77537 in 10477s =    7.4/s Avg:  6746 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:20:30 INFO  - jmeter.reporters.Summariser: summary +    208 in    37s =    5.7/s Avg:  7102 Min:  5926 Max:  8346 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:20:30 INFO  - jmeter.reporters.Summariser: summary =  77745 in 10508s =    7.4/s Avg:  6747 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:21:00 INFO  - jmeter.reporters.Summariser: summary +    213 in  36.2s =    5.9/s Avg:  6822 Min:  5176 Max:  8202 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:21:00 INFO  - jmeter.reporters.Summariser: summary =  77958 in 10537s =    7.4/s Avg:  6747 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:21:30 INFO  - jmeter.reporters.Summariser: summary +    238 in    37s =    6.5/s Avg:  6655 Min:  5658 Max:  7484 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:21:30 INFO  - jmeter.reporters.Summariser: summary =  78196 in 10567s =    7.4/s Avg:  6746 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:22:00 INFO  - jmeter.reporters.Summariser: summary +    216 in  37.1s =    5.8/s Avg:  6655 Min:  5857 Max:  7336 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:22:00 INFO  - jmeter.reporters.Summariser: summary =  78412 in 10597s =    7.4/s Avg:  6746 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:22:30 INFO  - jmeter.reporters.Summariser: summary +    233 in    37s =    6.4/s Avg:  6643 Min:  5200 Max:  7478 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:22:30 INFO  - jmeter.reporters.Summariser: summary =  78645 in 10627s =    7.4/s Avg:  6746 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:23:00 INFO  - jmeter.reporters.Summariser: summary +    223 in  37.1s =    6.0/s Avg:  6661 Min:  5849 Max:  7622 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:23:00 INFO  - jmeter.reporters.Summariser: summary =  78868 in 10658s =    7.4/s Avg:  6746 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:23:30 INFO  - jmeter.reporters.Summariser: summary +    214 in  36.2s =    5.9/s Avg:  6781 Min:  5920 Max:  7872 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:23:30 INFO  - jmeter.reporters.Summariser: summary =  79082 in 10687s =    7.4/s Avg:  6746 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:24:00 INFO  - jmeter.reporters.Summariser: summary +    217 in  37.1s =    5.8/s Avg:  7057 Min:  4844 Max:  8100 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:24:00 INFO  - jmeter.reporters.Summariser: summary =  79299 in 10717s =    7.4/s Avg:  6747 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:24:30 INFO  - jmeter.reporters.Summariser: summary +    222 in  36.5s =    6.1/s Avg:  6663 Min:  5896 Max:  7742 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:24:30 INFO  - jmeter.reporters.Summariser: summary =  79521 in 10747s =    7.4/s Avg:  6746 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:25:00 INFO  - jmeter.reporters.Summariser: summary +    222 in    37s =    6.0/s Avg:  6922 Min:  5983 Max:  8124 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:25:00 INFO  - jmeter.reporters.Summariser: summary =  79743 in 10777s =    7.4/s Avg:  6747 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:25:30 INFO  - jmeter.reporters.Summariser: summary +    212 in  37.3s =    5.7/s Avg:  7153 Min:  6102 Max:  8092 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:25:30 INFO  - jmeter.reporters.Summariser: summary =  79955 in 10807s =    7.4/s Avg:  6748 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:26:00 INFO  - jmeter.reporters.Summariser: summary +    213 in    37s =    5.8/s Avg:  6755 Min:  5560 Max:  7463 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:26:00 INFO  - jmeter.reporters.Summariser: summary =  80168 in 10837s =    7.4/s Avg:  6748 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:26:30 INFO  - jmeter.reporters.Summariser: summary +    226 in    37s =    6.1/s Avg:  6799 Min:  5447 Max:  7909 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:26:30 INFO  - jmeter.reporters.Summariser: summary =  80394 in 10867s =    7.4/s Avg:  6748 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:27:00 INFO  - jmeter.reporters.Summariser: summary +    227 in    38s =    6.0/s Avg:  6762 Min:  5837 Max:  7760 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:27:00 INFO  - jmeter.reporters.Summariser: summary =  80621 in 10897s =    7.4/s Avg:  6748 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:27:30 INFO  - jmeter.reporters.Summariser: summary +    212 in  36.4s =    5.8/s Avg:  6774 Min:  5867 Max:  7730 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:27:30 INFO  - jmeter.reporters.Summariser: summary =  80833 in 10927s =    7.4/s Avg:  6748 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:28:00 INFO  - jmeter.reporters.Summariser: summary +    224 in    37s =    6.1/s Avg:  6749 Min:  5831 Max:  7418 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:28:00 INFO  - jmeter.reporters.Summariser: summary =  81057 in 10957s =    7.4/s Avg:  6748 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:28:30 INFO  - jmeter.reporters.Summariser: summary +    225 in  37.4s =    6.0/s Avg:  6807 Min:  5975 Max:  7614 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:28:30 INFO  - jmeter.reporters.Summariser: summary =  81282 in 10988s =    7.4/s Avg:  6748 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:29:00 INFO  - jmeter.reporters.Summariser: summary +    215 in    37s =    5.8/s Avg:  6812 Min:  4852 Max:  9067 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:29:00 INFO  - jmeter.reporters.Summariser: summary =  81497 in 11018s =    7.4/s Avg:  6749 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:29:30 INFO  - jmeter.reporters.Summariser: summary +    222 in    36s =    6.2/s Avg:  6765 Min:  5658 Max:  7412 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:29:30 INFO  - jmeter.reporters.Summariser: summary =  81719 in 11047s =    7.4/s Avg:  6749 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:30:00 INFO  - jmeter.reporters.Summariser: summary +    231 in  37.3s =    6.2/s Avg:  6786 Min:  5583 Max:  7754 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:30:00 INFO  - jmeter.reporters.Summariser: summary =  81950 in 11077s =    7.4/s Avg:  6749 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:30:30 INFO  - jmeter.reporters.Summariser: summary +    210 in    37s =    5.7/s Avg:  6800 Min:  5859 Max:  7608 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:30:30 INFO  - jmeter.reporters.Summariser: summary =  82160 in 11108s =    7.4/s Avg:  6749 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:31:00 INFO  - jmeter.reporters.Summariser: summary +    217 in    37s =    5.9/s Avg:  6757 Min:  5414 Max:  7762 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:31:00 INFO  - jmeter.reporters.Summariser: summary =  82377 in 11138s =    7.4/s Avg:  6749 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:31:30 INFO  - jmeter.reporters.Summariser: summary +    233 in    37s =    6.3/s Avg:  6816 Min:  5592 Max:  7754 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:31:30 INFO  - jmeter.reporters.Summariser: summary =  82610 in 11168s =    7.4/s Avg:  6749 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:32:00 INFO  - jmeter.reporters.Summariser: summary +    215 in    37s =    5.8/s Avg:  6699 Min:  5733 Max:  7492 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:32:00 INFO  - jmeter.reporters.Summariser: summary =  82825 in 11197s =    7.4/s Avg:  6749 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:32:30 INFO  - jmeter.reporters.Summariser: summary +    230 in    37s =    6.3/s Avg:  6686 Min:  5661 Max:  7712 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:32:30 INFO  - jmeter.reporters.Summariser: summary =  83055 in 11227s =    7.4/s Avg:  6749 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:33:00 INFO  - jmeter.reporters.Summariser: summary +    226 in    37s =    6.1/s Avg:  6683 Min:  5873 Max:  7529 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:33:00 INFO  - jmeter.reporters.Summariser: summary =  83281 in 11257s =    7.4/s Avg:  6749 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:33:30 INFO  - jmeter.reporters.Summariser: summary +    222 in    37s =    6.1/s Avg:  6635 Min:  5335 Max:  7312 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:33:30 INFO  - jmeter.reporters.Summariser: summary =  83503 in 11287s =    7.4/s Avg:  6748 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:34:00 INFO  - jmeter.reporters.Summariser: summary +    229 in  38.1s =    6.0/s Avg:  6682 Min:  5674 Max:  9319 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:34:00 INFO  - jmeter.reporters.Summariser: summary =  83732 in 11317s =    7.4/s Avg:  6748 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:34:30 INFO  - jmeter.reporters.Summariser: summary +    218 in  36.3s =    6.0/s Avg:  6702 Min:  5627 Max:  7635 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:34:30 INFO  - jmeter.reporters.Summariser: summary =  83950 in 11347s =    7.4/s Avg:  6748 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:35:00 INFO  - jmeter.reporters.Summariser: summary +    222 in  37.3s =    5.9/s Avg:  6793 Min:  5997 Max:  7613 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:35:00 INFO  - jmeter.reporters.Summariser: summary =  84172 in 11377s =    7.4/s Avg:  6748 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:35:30 INFO  - jmeter.reporters.Summariser: summary +    224 in    37s =    6.1/s Avg:  6692 Min:  5672 Max:  7394 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:35:30 INFO  - jmeter.reporters.Summariser: summary =  84396 in 11407s =    7.4/s Avg:  6748 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:36:00 INFO  - jmeter.reporters.Summariser: summary +    223 in    37s =    6.1/s Avg:  6656 Min:  5589 Max:  7480 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:36:00 INFO  - jmeter.reporters.Summariser: summary =  84619 in 11437s =    7.4/s Avg:  6748 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:36:30 INFO  - jmeter.reporters.Summariser: summary +    213 in    37s =    5.8/s Avg:  7126 Min:  6083 Max:  8939 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:36:30 INFO  - jmeter.reporters.Summariser: summary =  84832 in 11468s =    7.4/s Avg:  6749 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:37:00 INFO  - jmeter.reporters.Summariser: summary +    222 in    37s =    6.0/s Avg:  6810 Min:  5492 Max:  7923 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:37:00 INFO  - jmeter.reporters.Summariser: summary =  85054 in 11497s =    7.4/s Avg:  6749 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:37:30 INFO  - jmeter.reporters.Summariser: summary +    223 in    37s =    6.1/s Avg:  6669 Min:  5882 Max:  7682 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:37:30 INFO  - jmeter.reporters.Summariser: summary =  85277 in 11527s =    7.4/s Avg:  6749 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:38:00 INFO  - jmeter.reporters.Summariser: summary +    207 in  37.3s =    5.6/s Avg:  7111 Min:  5903 Max:  8441 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:38:00 INFO  - jmeter.reporters.Summariser: summary =  85484 in 11558s =    7.4/s Avg:  6749 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:38:30 INFO  - jmeter.reporters.Summariser: summary +    217 in    37s =    5.9/s Avg:  6947 Min:  5674 Max:  8047 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:38:30 INFO  - jmeter.reporters.Summariser: summary =  85701 in 11587s =    7.4/s Avg:  6750 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:39:00 INFO  - jmeter.reporters.Summariser: summary +    228 in    37s =    6.2/s Avg:  6720 Min:  5205 Max:  7998 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:39:00 INFO  - jmeter.reporters.Summariser: summary =  85929 in 11617s =    7.4/s Avg:  6750 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:39:30 INFO  - jmeter.reporters.Summariser: summary +    219 in  36.1s =    6.1/s Avg:  6675 Min:  5656 Max:  7934 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:39:30 INFO  - jmeter.reporters.Summariser: summary =  86148 in 11647s =    7.4/s Avg:  6750 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:40:00 INFO  - jmeter.reporters.Summariser: summary +    232 in    37s =    6.3/s Avg:  6657 Min:  5761 Max:  7504 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:40:00 INFO  - jmeter.reporters.Summariser: summary =  86380 in 11677s =    7.4/s Avg:  6749 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:40:30 INFO  - jmeter.reporters.Summariser: summary +    217 in  37.1s =    5.8/s Avg:  6671 Min:  5952 Max:  7773 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:40:30 INFO  - jmeter.reporters.Summariser: summary =  86597 in 11708s =    7.4/s Avg:  6749 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:41:00 INFO  - jmeter.reporters.Summariser: summary +    238 in    37s =    6.5/s Avg:  6675 Min:  5217 Max:  7523 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:41:00 INFO  - jmeter.reporters.Summariser: summary =  86835 in 11737s =    7.4/s Avg:  6749 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:41:30 INFO  - jmeter.reporters.Summariser: summary +    219 in  37.1s =    5.9/s Avg:  6685 Min:  5688 Max:  7459 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:41:30 INFO  - jmeter.reporters.Summariser: summary =  87054 in 11768s =    7.4/s Avg:  6749 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:42:00 INFO  - jmeter.reporters.Summariser: summary +    216 in    36s =    6.0/s Avg:  6646 Min:  5028 Max:  7605 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:42:00 INFO  - jmeter.reporters.Summariser: summary =  87270 in 11797s =    7.4/s Avg:  6749 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:42:30 INFO  - jmeter.reporters.Summariser: summary +    242 in    37s =    6.6/s Avg:  6693 Min:  5763 Max:  7760 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:42:30 INFO  - jmeter.reporters.Summariser: summary =  87512 in 11827s =    7.4/s Avg:  6748 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:43:00 INFO  - jmeter.reporters.Summariser: summary +    210 in    36s =    5.9/s Avg:  6634 Min:  5585 Max:  7718 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:43:00 INFO  - jmeter.reporters.Summariser: summary =  87722 in 11857s =    7.4/s Avg:  6748 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:43:30 INFO  - jmeter.reporters.Summariser: summary +    232 in    37s =    6.3/s Avg:  6674 Min:  5490 Max:  7816 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:43:30 INFO  - jmeter.reporters.Summariser: summary =  87954 in 11887s =    7.4/s Avg:  6748 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:44:00 INFO  - jmeter.reporters.Summariser: summary +    221 in    37s =    6.0/s Avg:  6675 Min:  5208 Max:  7505 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:44:00 INFO  - jmeter.reporters.Summariser: summary =  88175 in 11917s =    7.4/s Avg:  6748 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:44:30 INFO  - jmeter.reporters.Summariser: summary +    226 in  37.2s =    6.1/s Avg:  6721 Min:  5892 Max:  7604 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:44:30 INFO  - jmeter.reporters.Summariser: summary =  88401 in 11947s =    7.4/s Avg:  6748 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:45:00 INFO  - jmeter.reporters.Summariser: summary +    227 in    37s =    6.2/s Avg:  6669 Min:  5453 Max:  7373 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:45:00 INFO  - jmeter.reporters.Summariser: summary =  88628 in 11977s =    7.4/s Avg:  6748 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:45:30 INFO  - jmeter.reporters.Summariser: summary +    223 in  37.2s =    6.0/s Avg:  6650 Min:  5642 Max:  7409 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:45:30 INFO  - jmeter.reporters.Summariser: summary =  88851 in 12008s =    7.4/s Avg:  6747 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:46:00 INFO  - jmeter.reporters.Summariser: summary +    228 in    36s =    6.3/s Avg:  6665 Min:  5998 Max:  7464 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:46:00 INFO  - jmeter.reporters.Summariser: summary =  89079 in 12037s =    7.4/s Avg:  6747 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:46:30 INFO  - jmeter.reporters.Summariser: summary +    218 in    37s =    5.9/s Avg:  6680 Min:  5552 Max:  7484 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:46:30 INFO  - jmeter.reporters.Summariser: summary =  89297 in 12067s =    7.4/s Avg:  6747 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:47:00 INFO  - jmeter.reporters.Summariser: summary +    226 in    37s =    6.2/s Avg:  6671 Min:  5643 Max:  7559 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:47:00 INFO  - jmeter.reporters.Summariser: summary =  89523 in 12097s =    7.4/s Avg:  6747 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:47:30 INFO  - jmeter.reporters.Summariser: summary +    229 in    37s =    6.2/s Avg:  6675 Min:  5569 Max:  7438 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:47:30 INFO  - jmeter.reporters.Summariser: summary =  89752 in 12127s =    7.4/s Avg:  6747 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:48:00 INFO  - jmeter.reporters.Summariser: summary +    221 in    37s =    6.0/s Avg:  6662 Min:  5731 Max:  8127 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:48:00 INFO  - jmeter.reporters.Summariser: summary =  89973 in 12157s =    7.4/s Avg:  6746 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:48:30 INFO  - jmeter.reporters.Summariser: summary +    230 in  36.4s =    6.3/s Avg:  6671 Min:  5536 Max:  7386 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:48:30 INFO  - jmeter.reporters.Summariser: summary =  90203 in 12187s =    7.4/s Avg:  6746 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:49:00 INFO  - jmeter.reporters.Summariser: summary +    223 in    37s =    6.0/s Avg:  6648 Min:  4465 Max:  7727 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:49:00 INFO  - jmeter.reporters.Summariser: summary =  90426 in 12217s =    7.4/s Avg:  6746 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:49:30 INFO  - jmeter.reporters.Summariser: summary +    222 in    37s =    6.0/s Avg:  6678 Min:  5556 Max:  7465 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:49:30 INFO  - jmeter.reporters.Summariser: summary =  90648 in 12248s =    7.4/s Avg:  6746 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:50:00 INFO  - jmeter.reporters.Summariser: summary +    227 in  37.3s =    6.1/s Avg:  6778 Min:  5976 Max:  7569 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:50:00 INFO  - jmeter.reporters.Summariser: summary =  90875 in 12277s =    7.4/s Avg:  6746 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:50:30 INFO  - jmeter.reporters.Summariser: summary +    211 in    37s =    5.7/s Avg:  7010 Min:  6026 Max:  8183 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:50:30 INFO  - jmeter.reporters.Summariser: summary =  91086 in 12307s =    7.4/s Avg:  6746 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:51:00 INFO  - jmeter.reporters.Summariser: summary +    208 in  37.1s =    5.6/s Avg:  7099 Min:  5787 Max:  8339 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:51:00 INFO  - jmeter.reporters.Summariser: summary =  91294 in 12338s =    7.4/s Avg:  6747 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:51:30 INFO  - jmeter.reporters.Summariser: summary +    226 in  36.4s =    6.2/s Avg:  6691 Min:  5993 Max:  7553 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:51:30 INFO  - jmeter.reporters.Summariser: summary =  91520 in 12367s =    7.4/s Avg:  6747 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:52:00 INFO  - jmeter.reporters.Summariser: summary +    226 in    37s =    6.1/s Avg:  6648 Min:  5732 Max:  7247 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:52:00 INFO  - jmeter.reporters.Summariser: summary =  91746 in 12397s =    7.4/s Avg:  6747 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:52:30 INFO  - jmeter.reporters.Summariser: summary +    227 in    37s =    6.2/s Avg:  6634 Min:  5818 Max:  7580 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:52:30 INFO  - jmeter.reporters.Summariser: summary =  91973 in 12427s =    7.4/s Avg:  6747 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:53:00 INFO  - jmeter.reporters.Summariser: summary +    221 in    37s =    6.0/s Avg:  6659 Min:  5466 Max:  7652 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:53:00 INFO  - jmeter.reporters.Summariser: summary =  92194 in 12457s =    7.4/s Avg:  6746 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:53:30 INFO  - jmeter.reporters.Summariser: summary +    230 in    37s =    6.3/s Avg:  6653 Min:  5888 Max:  7382 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:53:30 INFO  - jmeter.reporters.Summariser: summary =  92424 in 12487s =    7.4/s Avg:  6746 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:54:00 INFO  - jmeter.reporters.Summariser: summary +    230 in    37s =    6.2/s Avg:  6665 Min:  5338 Max:  7967 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:54:00 INFO  - jmeter.reporters.Summariser: summary =  92654 in 12517s =    7.4/s Avg:  6746 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:54:30 INFO  - jmeter.reporters.Summariser: summary +    213 in  36.4s =    5.9/s Avg:  6771 Min:  5897 Max:  7465 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:54:30 INFO  - jmeter.reporters.Summariser: summary =  92867 in 12548s =    7.4/s Avg:  6746 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:55:00 INFO  - jmeter.reporters.Summariser: summary +    228 in  36.5s =    6.2/s Avg:  6642 Min:  5589 Max:  7471 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:55:00 INFO  - jmeter.reporters.Summariser: summary =  93095 in 12577s =    7.4/s Avg:  6746 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:55:30 INFO  - jmeter.reporters.Summariser: summary +    228 in    37s =    6.2/s Avg:  6662 Min:  5346 Max:  7398 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:55:30 INFO  - jmeter.reporters.Summariser: summary =  93323 in 12607s =    7.4/s Avg:  6746 Min:     0 Max: 14439 Err:    14 (0.02%) 
+2015/01/15 09:56:00 INFO  - jmeter.reporters.Summariser: summary +    223 in  36.5s =    6.1/s Avg:  6624 Min:  5491 Max:  7554 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:56:00 INFO  - jmeter.reporters.Summariser: summary =  93546 in 12637s =    7.4/s Avg:  6745 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 09:56:30 INFO  - jmeter.reporters.Summariser: summary +    232 in    37s =    6.3/s Avg:  6666 Min:  5180 Max:  7411 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:56:30 INFO  - jmeter.reporters.Summariser: summary =  93778 in 12667s =    7.4/s Avg:  6745 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 09:57:00 INFO  - jmeter.reporters.Summariser: summary +    219 in    37s =    6.0/s Avg:  6653 Min:  5616 Max:  7392 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:57:00 INFO  - jmeter.reporters.Summariser: summary =  93997 in 12697s =    7.4/s Avg:  6745 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 09:57:30 INFO  - jmeter.reporters.Summariser: summary +    223 in  36.5s =    6.1/s Avg:  6703 Min:  5951 Max:  7533 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:57:30 INFO  - jmeter.reporters.Summariser: summary =  94220 in 12727s =    7.4/s Avg:  6745 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 09:58:00 INFO  - jmeter.reporters.Summariser: summary +    232 in  36.5s =    6.4/s Avg:  6695 Min:  5656 Max:  8039 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:58:00 INFO  - jmeter.reporters.Summariser: summary =  94452 in 12757s =    7.4/s Avg:  6745 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 09:58:30 INFO  - jmeter.reporters.Summariser: summary +    214 in    37s =    5.9/s Avg:  6635 Min:  5594 Max:  7628 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:58:30 INFO  - jmeter.reporters.Summariser: summary =  94666 in 12787s =    7.4/s Avg:  6744 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 09:59:00 INFO  - jmeter.reporters.Summariser: summary +    233 in    37s =    6.3/s Avg:  6660 Min:  5717 Max:  7804 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:59:00 INFO  - jmeter.reporters.Summariser: summary =  94899 in 12817s =    7.4/s Avg:  6744 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 09:59:30 INFO  - jmeter.reporters.Summariser: summary +    222 in  37.1s =    6.0/s Avg:  6699 Min:  5607 Max:  7767 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 09:59:30 INFO  - jmeter.reporters.Summariser: summary =  95121 in 12848s =    7.4/s Avg:  6744 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 10:00:00 INFO  - jmeter.reporters.Summariser: summary +    226 in  36.1s =    6.3/s Avg:  6654 Min:  5507 Max:  7423 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 10:00:00 INFO  - jmeter.reporters.Summariser: summary =  95347 in 12877s =    7.4/s Avg:  6744 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 10:00:30 INFO  - jmeter.reporters.Summariser: summary +    225 in  37.3s =    6.0/s Avg:  6706 Min:  5597 Max:  7414 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 10:00:30 INFO  - jmeter.reporters.Summariser: summary =  95572 in 12908s =    7.4/s Avg:  6744 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 10:01:00 INFO  - jmeter.reporters.Summariser: summary +    217 in  36.1s =    6.0/s Avg:  6670 Min:  5589 Max:  7364 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 10:01:00 INFO  - jmeter.reporters.Summariser: summary =  95789 in 12937s =    7.4/s Avg:  6744 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 10:01:30 INFO  - jmeter.reporters.Summariser: summary +    234 in    37s =    6.4/s Avg:  6689 Min:  5743 Max:  7744 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 10:01:30 INFO  - jmeter.reporters.Summariser: summary =  96023 in 12967s =    7.4/s Avg:  6743 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 10:02:00 INFO  - jmeter.reporters.Summariser: summary +    221 in  36.3s =    6.1/s Avg:  6673 Min:  5740 Max:  7629 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 10:02:00 INFO  - jmeter.reporters.Summariser: summary =  96244 in 12997s =    7.4/s Avg:  6743 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 10:02:30 INFO  - jmeter.reporters.Summariser: summary +    217 in    37s =    5.9/s Avg:  6833 Min:  6003 Max:  7666 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 10:02:30 INFO  - jmeter.reporters.Summariser: summary =  96461 in 13027s =    7.4/s Avg:  6743 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 10:03:00 INFO  - jmeter.reporters.Summariser: summary +    228 in    37s =    6.2/s Avg:  6742 Min:  5539 Max:  7652 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 10:03:00 INFO  - jmeter.reporters.Summariser: summary =  96689 in 13057s =    7.4/s Avg:  6743 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 10:03:30 INFO  - jmeter.reporters.Summariser: summary +    204 in    37s =    5.6/s Avg:  7304 Min:  5992 Max:  8165 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 10:03:30 INFO  - jmeter.reporters.Summariser: summary =  96893 in 13087s =    7.4/s Avg:  6745 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 10:04:00 INFO  - jmeter.reporters.Summariser: summary +    212 in    38s =    5.6/s Avg:  6975 Min:  5575 Max:  8456 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 10:04:00 INFO  - jmeter.reporters.Summariser: summary =  97105 in 13118s =    7.4/s Avg:  6745 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 10:04:30 INFO  - jmeter.reporters.Summariser: summary +    222 in    37s =    6.1/s Avg:  6689 Min:  5442 Max:  7949 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 10:04:30 INFO  - jmeter.reporters.Summariser: summary =  97327 in 13148s =    7.4/s Avg:  6745 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 10:05:00 INFO  - jmeter.reporters.Summariser: summary +    232 in    37s =    6.3/s Avg:  6661 Min:  5544 Max:  7514 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 10:05:00 INFO  - jmeter.reporters.Summariser: summary =  97559 in 13178s =    7.4/s Avg:  6745 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 10:05:30 INFO  - jmeter.reporters.Summariser: summary +    214 in  36.2s =    5.9/s Avg:  6667 Min:  5880 Max:  7397 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 10:05:30 INFO  - jmeter.reporters.Summariser: summary =  97773 in 13207s =    7.4/s Avg:  6745 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 10:06:00 INFO  - jmeter.reporters.Summariser: summary +    238 in    37s =    6.5/s Avg:  6630 Min:  5837 Max:  7479 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 10:06:00 INFO  - jmeter.reporters.Summariser: summary =  98011 in 13237s =    7.4/s Avg:  6744 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 10:06:30 INFO  - jmeter.reporters.Summariser: summary +    214 in  36.4s =    5.9/s Avg:  6682 Min:  6000 Max:  7508 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 10:06:30 INFO  - jmeter.reporters.Summariser: summary =  98225 in 13268s =    7.4/s Avg:  6744 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 10:07:00 INFO  - jmeter.reporters.Summariser: summary +    234 in  36.3s =    6.5/s Avg:  6656 Min:  5598 Max:  8134 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 10:07:00 INFO  - jmeter.reporters.Summariser: summary =  98459 in 13297s =    7.4/s Avg:  6744 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 10:07:30 INFO  - jmeter.reporters.Summariser: summary +    218 in    37s =    5.9/s Avg:  6678 Min:  5912 Max:  7581 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 10:07:30 INFO  - jmeter.reporters.Summariser: summary =  98677 in 13327s =    7.4/s Avg:  6744 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 10:08:00 INFO  - jmeter.reporters.Summariser: summary +    226 in    37s =    6.2/s Avg:  6656 Min:  5675 Max:  7478 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 10:08:00 INFO  - jmeter.reporters.Summariser: summary =  98903 in 13357s =    7.4/s Avg:  6744 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 10:08:30 INFO  - jmeter.reporters.Summariser: summary +    228 in    37s =    6.2/s Avg:  6707 Min:  5730 Max:  7692 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 10:08:30 INFO  - jmeter.reporters.Summariser: summary =  99131 in 13387s =    7.4/s Avg:  6744 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 10:09:00 INFO  - jmeter.reporters.Summariser: summary +    220 in    37s =    6.0/s Avg:  6652 Min:  5766 Max:  7842 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 10:09:00 INFO  - jmeter.reporters.Summariser: summary =  99351 in 13417s =    7.4/s Avg:  6743 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 10:09:30 INFO  - jmeter.reporters.Summariser: summary +    226 in    37s =    6.2/s Avg:  6752 Min:  5169 Max:  7755 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 10:09:30 INFO  - jmeter.reporters.Summariser: summary =  99577 in 13447s =    7.4/s Avg:  6743 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 10:10:00 INFO  - jmeter.reporters.Summariser: summary +    223 in    38s =    5.9/s Avg:  6706 Min:  5854 Max:  7580 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 10:10:00 INFO  - jmeter.reporters.Summariser: summary =  99800 in 13477s =    7.4/s Avg:  6743 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 10:10:30 INFO  - jmeter.reporters.Summariser: summary +    226 in  36.2s =    6.2/s Avg:  6721 Min:  5710 Max:  7445 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 10:10:30 INFO  - jmeter.reporters.Summariser: summary = 100026 in 13507s =    7.4/s Avg:  6743 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 10:11:00 INFO  - jmeter.reporters.Summariser: summary +    224 in  36.3s =    6.2/s Avg:  6665 Min:  5042 Max:  8284 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 10:11:00 INFO  - jmeter.reporters.Summariser: summary = 100250 in 13537s =    7.4/s Avg:  6743 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 10:11:30 INFO  - jmeter.reporters.Summariser: summary +    221 in  36.3s =    6.1/s Avg:  6683 Min:  5561 Max:  7643 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 10:11:30 INFO  - jmeter.reporters.Summariser: summary = 100471 in 13568s =    7.4/s Avg:  6743 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 10:12:00 INFO  - jmeter.reporters.Summariser: summary +    228 in    37s =    6.2/s Avg:  6624 Min:  5517 Max:  7498 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 10:12:00 INFO  - jmeter.reporters.Summariser: summary = 100699 in 13597s =    7.4/s Avg:  6743 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 10:12:30 INFO  - jmeter.reporters.Summariser: summary +    224 in  37.3s =    6.0/s Avg:  6665 Min:  5596 Max:  7339 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 10:12:30 INFO  - jmeter.reporters.Summariser: summary = 100923 in 13627s =    7.4/s Avg:  6743 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 10:13:00 INFO  - jmeter.reporters.Summariser: summary +    230 in    37s =    6.3/s Avg:  6632 Min:  5681 Max:  7643 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 10:13:00 INFO  - jmeter.reporters.Summariser: summary = 101153 in 13657s =    7.4/s Avg:  6742 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 10:13:30 INFO  - jmeter.reporters.Summariser: summary +    222 in    37s =    6.0/s Avg:  6666 Min:  5640 Max:  7437 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 10:13:30 INFO  - jmeter.reporters.Summariser: summary = 101375 in 13687s =    7.4/s Avg:  6742 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 10:14:00 INFO  - jmeter.reporters.Summariser: summary +    226 in  37.1s =    6.1/s Avg:  6668 Min:  5540 Max:  7841 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 10:14:00 INFO  - jmeter.reporters.Summariser: summary = 101601 in 13717s =    7.4/s Avg:  6742 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 10:14:30 INFO  - jmeter.reporters.Summariser: summary +    220 in    37s =    6.0/s Avg:  6699 Min:  5825 Max:  7772 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 10:14:30 INFO  - jmeter.reporters.Summariser: summary = 101821 in 13747s =    7.4/s Avg:  6742 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 10:15:00 INFO  - jmeter.reporters.Summariser: summary +    231 in    37s =    6.3/s Avg:  6690 Min:  5794 Max:  7650 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 10:15:00 INFO  - jmeter.reporters.Summariser: summary = 102052 in 13777s =    7.4/s Avg:  6742 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 10:15:30 INFO  - jmeter.reporters.Summariser: summary +    218 in    38s =    5.8/s Avg:  6822 Min:  6125 Max:  7908 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 10:15:30 INFO  - jmeter.reporters.Summariser: summary = 102270 in 13808s =    7.4/s Avg:  6742 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 10:16:00 INFO  - jmeter.reporters.Summariser: summary +    209 in  37.1s =    5.6/s Avg:  6989 Min:  5735 Max:  8354 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 10:16:00 INFO  - jmeter.reporters.Summariser: summary = 102479 in 13837s =    7.4/s Avg:  6742 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 10:16:30 INFO  - jmeter.reporters.Summariser: summary +    218 in  37.2s =    5.9/s Avg:  7005 Min:  6040 Max:  8155 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 10:16:30 INFO  - jmeter.reporters.Summariser: summary = 102697 in 13867s =    7.4/s Avg:  6743 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 10:17:00 INFO  - jmeter.reporters.Summariser: summary +    229 in    37s =    6.2/s Avg:  6676 Min:  5731 Max:  7590 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 10:17:00 INFO  - jmeter.reporters.Summariser: summary = 102926 in 13897s =    7.4/s Avg:  6743 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 10:17:30 INFO  - jmeter.reporters.Summariser: summary +    221 in    37s =    6.0/s Avg:  6700 Min:  5733 Max:  7535 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 10:17:30 INFO  - jmeter.reporters.Summariser: summary = 103147 in 13927s =    7.4/s Avg:  6743 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 10:18:00 INFO  - jmeter.reporters.Summariser: summary +    226 in  37.2s =    6.1/s Avg:  6653 Min:  5628 Max:  7384 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 10:18:00 INFO  - jmeter.reporters.Summariser: summary = 103373 in 13957s =    7.4/s Avg:  6743 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 10:18:30 INFO  - jmeter.reporters.Summariser: summary +    226 in    37s =    6.1/s Avg:  6715 Min:  5811 Max:  7388 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 10:18:30 INFO  - jmeter.reporters.Summariser: summary = 103599 in 13987s =    7.4/s Avg:  6742 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 10:19:00 INFO  - jmeter.reporters.Summariser: summary +    214 in    37s =    5.8/s Avg:  6694 Min:  5782 Max:  7836 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 10:19:00 INFO  - jmeter.reporters.Summariser: summary = 103813 in 14017s =    7.4/s Avg:  6742 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 10:19:30 INFO  - jmeter.reporters.Summariser: summary +    230 in    37s =    6.3/s Avg:  6700 Min:  5661 Max:  7865 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 10:19:30 INFO  - jmeter.reporters.Summariser: summary = 104043 in 14047s =    7.4/s Avg:  6742 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 10:20:00 INFO  - jmeter.reporters.Summariser: summary +    225 in  37.2s =    6.0/s Avg:  6650 Min:  5687 Max:  7546 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 10:20:00 INFO  - jmeter.reporters.Summariser: summary = 104268 in 14077s =    7.4/s Avg:  6742 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 10:20:30 INFO  - jmeter.reporters.Summariser: summary +    226 in    38s =    6.0/s Avg:  6690 Min:  5468 Max:  7573 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 10:20:30 INFO  - jmeter.reporters.Summariser: summary = 104494 in 14107s =    7.4/s Avg:  6742 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 10:21:00 INFO  - jmeter.reporters.Summariser: summary +    221 in  36.4s =    6.1/s Avg:  6688 Min:  5844 Max:  7718 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 10:21:00 INFO  - jmeter.reporters.Summariser: summary = 104715 in 14137s =    7.4/s Avg:  6742 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 10:21:30 INFO  - jmeter.reporters.Summariser: summary +    227 in    37s =    6.1/s Avg:  6689 Min:  5776 Max:  7381 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 10:21:30 INFO  - jmeter.reporters.Summariser: summary = 104942 in 14167s =    7.4/s Avg:  6742 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 10:22:00 INFO  - jmeter.reporters.Summariser: summary +    221 in    37s =    6.0/s Avg:  6648 Min:  5512 Max:  7767 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 10:22:00 INFO  - jmeter.reporters.Summariser: summary = 105163 in 14197s =    7.4/s Avg:  6742 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 10:22:30 INFO  - jmeter.reporters.Summariser: summary +    230 in    37s =    6.3/s Avg:  6737 Min:  5666 Max:  7696 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 10:22:30 INFO  - jmeter.reporters.Summariser: summary = 105393 in 14227s =    7.4/s Avg:  6742 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 10:23:00 INFO  - jmeter.reporters.Summariser: summary +    208 in  37.4s =    5.6/s Avg:  7072 Min:  5821 Max:  8022 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 10:23:00 INFO  - jmeter.reporters.Summariser: summary = 105601 in 14257s =    7.4/s Avg:  6742 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 10:23:30 INFO  - jmeter.reporters.Summariser: summary +    220 in    37s =    6.0/s Avg:  6800 Min:  5811 Max:  7628 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 10:23:30 INFO  - jmeter.reporters.Summariser: summary = 105821 in 14287s =    7.4/s Avg:  6742 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 10:24:00 INFO  - jmeter.reporters.Summariser: summary +    228 in  37.1s =    6.1/s Avg:  6653 Min:  5755 Max:  8020 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 10:24:00 INFO  - jmeter.reporters.Summariser: summary = 106049 in 14318s =    7.4/s Avg:  6742 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 10:24:30 INFO  - jmeter.reporters.Summariser: summary +    222 in  36.2s =    6.1/s Avg:  6689 Min:  5831 Max:  7426 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 10:24:30 INFO  - jmeter.reporters.Summariser: summary = 106271 in 14347s =    7.4/s Avg:  6742 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 10:25:00 INFO  - jmeter.reporters.Summariser: summary +    229 in  37.1s =    6.2/s Avg:  6677 Min:  5424 Max:  7413 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0 
+2015/01/15 10:25:00 INFO  - jmeter.reporters.Summariser: summary = 106500 in 14377s =    7.4/s Avg:  6742 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 10:25:23 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: ThreadGroup 1-24 
+2015/01/15 10:25:23 INFO  - jmeter.threads.JMeterThread: Thread finished: ThreadGroup 1-24 
+2015/01/15 10:25:24 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: ThreadGroup 1-43 
+2015/01/15 10:25:24 INFO  - jmeter.threads.JMeterThread: Thread finished: ThreadGroup 1-43 
+2015/01/15 10:25:24 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: ThreadGroup 1-36 
+2015/01/15 10:25:24 INFO  - jmeter.threads.JMeterThread: Thread finished: ThreadGroup 1-36 
+2015/01/15 10:25:24 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: ThreadGroup 1-34 
+2015/01/15 10:25:24 INFO  - jmeter.threads.JMeterThread: Thread finished: ThreadGroup 1-34 
+2015/01/15 10:25:24 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: ThreadGroup 1-16 
+2015/01/15 10:25:24 INFO  - jmeter.threads.JMeterThread: Thread finished: ThreadGroup 1-16 
+2015/01/15 10:25:24 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: ThreadGroup 1-47 
+2015/01/15 10:25:24 INFO  - jmeter.threads.JMeterThread: Thread finished: ThreadGroup 1-47 
+2015/01/15 10:25:24 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: ThreadGroup 1-31 
+2015/01/15 10:25:24 INFO  - jmeter.threads.JMeterThread: Thread finished: ThreadGroup 1-31 
+2015/01/15 10:25:24 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: ThreadGroup 1-12 
+2015/01/15 10:25:24 INFO  - jmeter.threads.JMeterThread: Thread finished: ThreadGroup 1-12 
+2015/01/15 10:25:25 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: ThreadGroup 1-18 
+2015/01/15 10:25:25 INFO  - jmeter.threads.JMeterThread: Thread finished: ThreadGroup 1-18 
+2015/01/15 10:25:25 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: ThreadGroup 1-10 
+2015/01/15 10:25:25 INFO  - jmeter.threads.JMeterThread: Thread finished: ThreadGroup 1-10 
+2015/01/15 10:25:25 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: ThreadGroup 1-30 
+2015/01/15 10:25:25 INFO  - jmeter.threads.JMeterThread: Thread finished: ThreadGroup 1-30 
+2015/01/15 10:25:25 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: ThreadGroup 1-3 
+2015/01/15 10:25:25 INFO  - jmeter.threads.JMeterThread: Thread finished: ThreadGroup 1-3 
+2015/01/15 10:25:25 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: ThreadGroup 1-50 
+2015/01/15 10:25:25 INFO  - jmeter.threads.JMeterThread: Thread finished: ThreadGroup 1-50 
+2015/01/15 10:25:25 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: ThreadGroup 1-39 
+2015/01/15 10:25:25 INFO  - jmeter.threads.JMeterThread: Thread finished: ThreadGroup 1-39 
+2015/01/15 10:25:25 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: ThreadGroup 1-40 
+2015/01/15 10:25:25 INFO  - jmeter.threads.JMeterThread: Thread finished: ThreadGroup 1-40 
+2015/01/15 10:25:25 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: ThreadGroup 1-15 
+2015/01/15 10:25:25 INFO  - jmeter.threads.JMeterThread: Thread finished: ThreadGroup 1-15 
+2015/01/15 10:25:25 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: ThreadGroup 1-29 
+2015/01/15 10:25:25 INFO  - jmeter.threads.JMeterThread: Thread finished: ThreadGroup 1-29 
+2015/01/15 10:25:25 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: ThreadGroup 1-21 
+2015/01/15 10:25:25 INFO  - jmeter.threads.JMeterThread: Thread finished: ThreadGroup 1-21 
+2015/01/15 10:25:25 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: ThreadGroup 1-13 
+2015/01/15 10:25:25 INFO  - jmeter.threads.JMeterThread: Thread finished: ThreadGroup 1-13 
+2015/01/15 10:25:25 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: ThreadGroup 1-42 
+2015/01/15 10:25:25 INFO  - jmeter.threads.JMeterThread: Thread finished: ThreadGroup 1-42 
+2015/01/15 10:25:25 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: ThreadGroup 1-48 
+2015/01/15 10:25:25 INFO  - jmeter.threads.JMeterThread: Thread finished: ThreadGroup 1-48 
+2015/01/15 10:25:25 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: ThreadGroup 1-19 
+2015/01/15 10:25:25 INFO  - jmeter.threads.JMeterThread: Thread finished: ThreadGroup 1-19 
+2015/01/15 10:25:25 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: ThreadGroup 1-6 
+2015/01/15 10:25:25 INFO  - jmeter.threads.JMeterThread: Thread finished: ThreadGroup 1-6 
+2015/01/15 10:25:25 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: ThreadGroup 1-7 
+2015/01/15 10:25:25 INFO  - jmeter.threads.JMeterThread: Thread finished: ThreadGroup 1-7 
+2015/01/15 10:25:25 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: ThreadGroup 1-41 
+2015/01/15 10:25:25 INFO  - jmeter.threads.JMeterThread: Thread finished: ThreadGroup 1-41 
+2015/01/15 10:25:25 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: ThreadGroup 1-28 
+2015/01/15 10:25:25 INFO  - jmeter.threads.JMeterThread: Thread finished: ThreadGroup 1-28 
+2015/01/15 10:25:25 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: ThreadGroup 1-1 
+2015/01/15 10:25:25 INFO  - jmeter.threads.JMeterThread: Thread finished: ThreadGroup 1-1 
+2015/01/15 10:25:25 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: ThreadGroup 1-32 
+2015/01/15 10:25:25 INFO  - jmeter.threads.JMeterThread: Thread finished: ThreadGroup 1-32 
+2015/01/15 10:25:25 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: ThreadGroup 1-5 
+2015/01/15 10:25:25 INFO  - jmeter.threads.JMeterThread: Thread finished: ThreadGroup 1-5 
+2015/01/15 10:25:25 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: ThreadGroup 1-17 
+2015/01/15 10:25:25 INFO  - jmeter.threads.JMeterThread: Thread finished: ThreadGroup 1-17 
+2015/01/15 10:25:26 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: ThreadGroup 1-14 
+2015/01/15 10:25:26 INFO  - jmeter.threads.JMeterThread: Thread finished: ThreadGroup 1-14 
+2015/01/15 10:25:26 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: ThreadGroup 1-33 
+2015/01/15 10:25:26 INFO  - jmeter.threads.JMeterThread: Thread finished: ThreadGroup 1-33 
+2015/01/15 10:25:26 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: ThreadGroup 1-38 
+2015/01/15 10:25:26 INFO  - jmeter.threads.JMeterThread: Thread finished: ThreadGroup 1-38 
+2015/01/15 10:25:26 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: ThreadGroup 1-49 
+2015/01/15 10:25:26 INFO  - jmeter.threads.JMeterThread: Thread finished: ThreadGroup 1-49 
+2015/01/15 10:25:26 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: ThreadGroup 1-45 
+2015/01/15 10:25:26 INFO  - jmeter.threads.JMeterThread: Thread finished: ThreadGroup 1-45 
+2015/01/15 10:25:26 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: ThreadGroup 1-44 
+2015/01/15 10:25:26 INFO  - jmeter.threads.JMeterThread: Thread finished: ThreadGroup 1-44 
+2015/01/15 10:25:26 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: ThreadGroup 1-25 
+2015/01/15 10:25:26 INFO  - jmeter.threads.JMeterThread: Thread finished: ThreadGroup 1-25 
+2015/01/15 10:25:26 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: ThreadGroup 1-35 
+2015/01/15 10:25:26 INFO  - jmeter.threads.JMeterThread: Thread finished: ThreadGroup 1-35 
+2015/01/15 10:25:26 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: ThreadGroup 1-4 
+2015/01/15 10:25:26 INFO  - jmeter.threads.JMeterThread: Thread finished: ThreadGroup 1-4 
+2015/01/15 10:25:26 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: ThreadGroup 1-2 
+2015/01/15 10:25:26 INFO  - jmeter.threads.JMeterThread: Thread finished: ThreadGroup 1-2 
+2015/01/15 10:25:26 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: ThreadGroup 1-11 
+2015/01/15 10:25:26 INFO  - jmeter.threads.JMeterThread: Thread finished: ThreadGroup 1-11 
+2015/01/15 10:25:26 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: ThreadGroup 1-9 
+2015/01/15 10:25:26 INFO  - jmeter.threads.JMeterThread: Thread finished: ThreadGroup 1-9 
+2015/01/15 10:25:26 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: ThreadGroup 1-46 
+2015/01/15 10:25:26 INFO  - jmeter.threads.JMeterThread: Thread finished: ThreadGroup 1-46 
+2015/01/15 10:25:26 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: ThreadGroup 1-27 
+2015/01/15 10:25:26 INFO  - jmeter.threads.JMeterThread: Thread finished: ThreadGroup 1-27 
+2015/01/15 10:25:26 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: ThreadGroup 1-22 
+2015/01/15 10:25:26 INFO  - jmeter.threads.JMeterThread: Thread finished: ThreadGroup 1-22 
+2015/01/15 10:25:26 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: ThreadGroup 1-8 
+2015/01/15 10:25:26 INFO  - jmeter.threads.JMeterThread: Thread finished: ThreadGroup 1-8 
+2015/01/15 10:25:26 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: ThreadGroup 1-26 
+2015/01/15 10:25:26 INFO  - jmeter.threads.JMeterThread: Thread finished: ThreadGroup 1-26 
+2015/01/15 10:25:26 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: ThreadGroup 1-20 
+2015/01/15 10:25:26 INFO  - jmeter.threads.JMeterThread: Thread finished: ThreadGroup 1-20 
+2015/01/15 10:25:26 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: ThreadGroup 1-23 
+2015/01/15 10:25:26 INFO  - jmeter.threads.JMeterThread: Thread finished: ThreadGroup 1-23 
+2015/01/15 10:25:27 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: ThreadGroup 1-37 
+2015/01/15 10:25:27 INFO  - jmeter.threads.JMeterThread: Thread finished: ThreadGroup 1-37 
+2015/01/15 10:25:27 INFO  - jmeter.engine.StandardJMeterEngine: Starting tearDown thread groups 
+2015/01/15 10:25:27 INFO  - jmeter.engine.StandardJMeterEngine: Starting tearDown ThreadGroup: 1 : tearDown Thread Group 
+2015/01/15 10:25:27 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group tearDown Thread Group. 
+2015/01/15 10:25:27 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2015/01/15 10:25:27 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2015/01/15 10:25:27 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2015/01/15 10:25:27 INFO  - jmeter.threads.JMeterThread: Thread started: tearDown Thread Group 1-1 
+2015/01/15 10:25:32 INFO  - jmeter.reporters.Summariser: summary +    220 in  39.2s =    5.6/s Avg:  6533 Min:   541 Max:  7527 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0 
+2015/01/15 10:25:32 INFO  - jmeter.reporters.Summariser: summary = 106720 in 14410s =    7.4/s Avg:  6741 Min:     0 Max: 14439 Err:    14 (0.01%) 
+2015/01/15 10:25:52 INFO  - jmeter.threads.JMeterThread: Thread is done: tearDown Thread Group 1-1 
+2015/01/15 10:25:52 INFO  - jmeter.threads.JMeterThread: Thread finished: tearDown Thread Group 1-1 
+2015/01/15 10:25:52 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2015/01/15 10:25:52 INFO  - jmeter.reporters.Summariser: summary +      4 in  15.1s =    0.3/s Avg:    24 Min:    12 Max:    48 Err:     0 (0.00%) Active: 0 Started: 1 Finished: 1 
+2015/01/15 10:25:52 INFO  - jmeter.reporters.Summariser: summary = 106724 in 14430s =    7.4/s Avg:  6741 Min:     0 Max: 14439 Err:    14 (0.01%) 
