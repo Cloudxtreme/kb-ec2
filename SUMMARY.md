@@ -35,10 +35,12 @@
 
 - decreasing `-XX:CompileThreshold` (under 7500) as well as JRuby's JIT treshold
   makes overall performance numbers worse ...
+  * e.g. [run-07_7](run-07_7.md) versus [run-07_8](run-07_8.md)
 
 - using native thread priorities degrade performance significantly
   * TOTAL |  33279 |   43269 |  54858 (100 users -XX:+UseThreadPriorities)
   * TOTAL |  99043 |   14529 |  13647 (100 users)
+  * see [run-07_3](run-07_3.md) versus [run-07_4](run-07_4.md)
   
   **TODO** should be double checked / confirmed ...
 
