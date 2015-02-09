@@ -14,19 +14,26 @@ TOMCAT7_GROUP=tomcat7
 #JAVA_HOME=/usr/lib/jvm/openjdk-6-jdk
 
 ### KB: custom options
-JAVA_OPTS="-Djava.awt.headless=true -XX:+UseConcMarkSweepGC -XX:+UseCodeCacheFlushing"
-
-### KB: memory settings
-JAVA_OPTS="${JAVA_OPTS} -Xms128m -Xmx1536m -XX:PermSize=128m -XX:MaxPermSize=256m"
+# Use "-XX:+UseConcMarkSweepGC" to enable the CMS garbage collector (improved
+# response time). If you use that option and you run Tomcat on a machine with
+# exactly one CPU chip that contains one or two cores, you should also add
+# the "-XX:+CMSIncrementalMode" option.
+JAVA_OPTS="-Djava.awt.headless=true"
+if [ "${1}" = "start" ]; then
+  JAVA_OPTS="${JAVA_OPTS} -XX:+UseConcMarkSweepGC -XX:+UseCodeCacheFlushing"
+  JAVA_OPTS="${JAVA_OPTS} -Xms128m -Xmx1536m -XX:PermSize=128m -XX:MaxPermSize=256m"
+fi
 
 ###
 #JAVA_OPTS="${JAVA_OPTS} -XX:CompileThreshold=8000 -Xss1280k"
 
 ### KB: remote monitoring
-JAVA_OPTS="${JAVA_OPTS} -Dcom.sun.management.jmxremote"
-JAVA_OPTS="${JAVA_OPTS} -Dcom.sun.management.jmxremote.port=9901"
-JAVA_OPTS="${JAVA_OPTS} -Dcom.sun.management.jmxremote.authenticate=false"
-JAVA_OPTS="${JAVA_OPTS} -Dcom.sun.management.jmxremote.ssl=false"
+if [ "${1}" = "start" ]; then
+  JAVA_OPTS="${JAVA_OPTS} -Dcom.sun.management.jmxremote"
+  JAVA_OPTS="${JAVA_OPTS} -Dcom.sun.management.jmxremote.port=9901"
+  JAVA_OPTS="${JAVA_OPTS} -Dcom.sun.management.jmxremote.authenticate=false"
+  JAVA_OPTS="${JAVA_OPTS} -Dcom.sun.management.jmxremote.ssl=false"
+fi
 
 ### KB: JRuby
 #JAVA_OPTS="${JAVA_OPTS} -Xss1024k"
@@ -34,16 +41,17 @@ JAVA_OPTS="${JAVA_OPTS} -Dcom.sun.management.jmxremote.ssl=false"
 #JAVA_OPTS="${JAVA_OPTS} -Djruby.compile.mode=JIT"
 
 JAVA_OPTS="${JAVA_OPTS} -Djruby.management.enabled=true"
-JAVA_OPTS="${JAVA_OPTS} -Djruby.reify.classes=true"
+#JAVA_OPTS="${JAVA_OPTS} -Djruby.reify.classes=true"
+#JAVA_OPTS="${JAVA_OPTS} -Djruby.reify.logErrors=true"
 
 ### Helper
-PUBLIC_IP_FILE="$(dirname $0)/.public-ip"
-if [ ! -f $PUBLIC_IP_FILE ]; then
-  PUBLIC_IP="$(curl -s ipecho.net/plain)"
-  echo $PUBLIC_IP > $PUBLIC_IP_FILE
-else
-  PUBLIC_IP="$(cat $PUBLIC_IP_FILE)"
-fi
+#PUBLIC_IP_FILE="$(dirname $0)/.public-ip"
+#if [ ! -f $PUBLIC_IP_FILE ]; then
+#  PUBLIC_IP="$(curl -s ipecho.net/plain)"
+#  echo $PUBLIC_IP > $PUBLIC_IP_FILE
+#else
+#  PUBLIC_IP="$(cat $PUBLIC_IP_FILE)"
+#fi
 
 # make sure to uncomment the following line if you're use x.y.z.t:9901
 #JAVA_OPTS="${JAVA_OPTS} -Djava.rmi.server.hostname=$PUBLIC_IP"
@@ -104,6 +112,10 @@ JAVA_OPTS="${JAVA_OPTS} -Dorg.killbill.persistent.bus.main.useInflightQ=true"
 
 ### KB: TODO
 #JAVA_OPTS="${JAVA_OPTS} -Dorg.killbill.payment.plugin.timeout=5s"
+
+# To enable remote debugging uncomment the following line.
+# You will then be able to use a java debugger on port 8000.
+#JAVA_OPTS="${JAVA_OPTS} -Xdebug -Xrunjdwp:transport=dt_socket,address=8000,server=y,suspend=n"
 
 # Java compiler to use for translating JavaServer Pages (JSPs). You can use all
 # compilers that are accepted by Ant's build.compiler property.
