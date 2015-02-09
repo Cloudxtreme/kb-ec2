@@ -27,7 +27,7 @@ We're assuming a 2+ machine setup:
 
 - for KPM we simply use MRI (KillBill will install it's own JRuby) :
   - `apt-get install -y ruby1.9.3 make`
-  - `sudo ruby -S gem install kpm`
+  - `sudo ruby -S gem install kpm --no-ri --no-rdoc`
 
 - sample KPM configuration (assuming system tomcat installation) :
 
