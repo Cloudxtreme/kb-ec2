@@ -12,8 +12,10 @@
 - when unexpected (using `Java::JavaLang::Enum.value_of` patches) errors are 
   avoided avg response falls back to 8139 (with 88440 handled requests)
   
-  **TODO** need to look into AR-Bogacs timeouts - they seem to never happen ?!
+* see e.g. [run-09_4](run-09_4.md) with :
+  `JAVA_OPTS="${JAVA_OPTS} -Dorg.killbill.billing.osgi.dao.connectionTimeout=5s"`
   
+  * NOTE: Bogacs seems to be delegating timeout fine http://git.io/NE70
 
 ### notes
     
@@ -79,12 +81,12 @@
 - updating money 6.2.1 (was 6.1.1) + monetize 0.4.1 (was 0.3.0)
   de-creases exception/backtrace count but degrades performance as well ~ 30%
 
-  **NOTE:** should be re-visited ... as updated json 1.8.2 was used
+  **TODO:** should be re-visited ... as updated json 1.8.2 was used
   
 - updating money 6.5.0 (was 6.1.1) + monetize 1.1.0 (was 0.3.0)
-  de-creases exception/backtrace count but degrades performance as well ~ 50%
-  
-  **NOTE:** should be re-visited ... as updated json 1.8.2 was used
+  degrades performance compared to money 6.2.1 + monetize 0.4.1 !
+  * see [run-08_7](run-08_7.md) versus [run-08_8](run-08_8.md)
+  * **NOTE:** should probably be revisited later with another pair of run
   
 - atomic 1.1.99 (was 1.1.16) seems to degrade results ... for no obvious reason
 
