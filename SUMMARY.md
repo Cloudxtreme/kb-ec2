@@ -135,11 +135,71 @@ org.jruby.exceptions.RaiseException: (ArgumentError) wrong number of arguments (
 - do not use ~~`-XX:+UseThreadPriorities`~~
 - perm-gen never really grows after start from ~ 110M (allocated size 180M)
 
-#### t2.medium
+#### t2.medium (2 CPU cores, 4GB)
+
+- KillBill 0.12.1 + Stripe/Litle (payment gateway) plugin
+- Oracle JDK 7u71
 
 ```
+JAVA_OPTS="-Djava.awt.headless=true"
+if [ "${1}" = "start" ]; then
+  JAVA_OPTS="${JAVA_OPTS} -XX:+UseConcMarkSweepGC -XX:+UseCodeCacheFlushing"
+  JAVA_OPTS="${JAVA_OPTS} -Xms1024m -Xmx1792m -XX:PermSize=128m -XX:MaxPermSize=256m"
+fi
 
+JAVA_OPTS="${JAVA_OPTS} -XX:CompileThreshold=7000"
+# NOTE: DO NOT USE :
+#JAVA_OPTS="${JAVA_OPTS} -Djruby.compile.fastest=true"
+
+### KB: database setup
+#JAVA_OPTS="${JAVA_OPTS} -Dorg.killbill.dao.url=jdbc:mysql://${KB_DB_HOST}:3306/killbill"
+#JAVA_OPTS="${JAVA_OPTS} -Dorg.killbill.dao.user=killbill"
+#JAVA_OPTS="${JAVA_OPTS} -Dorg.killbill.dao.password=killbill"
+
+#JAVA_OPTS="${JAVA_OPTS} -Dorg.killbill.billing.osgi.dao.url=jdbc:mysql://${KB_DB_HOST}:3306/killbill"
+#JAVA_OPTS="${JAVA_OPTS} -Dorg.killbill.billing.osgi.dao.user=killbill"
+#JAVA_OPTS="${JAVA_OPTS} -Dorg.killbill.billing.osgi.dao.password=killbill"
+
+### KB: MAGICK
+JAVA_OPTS="${JAVA_OPTS} -DANTLR_USE_DIRECT_CLASS_LOADING=true"
+
+### KB: concurrency connection pool size (default 30) :
+JAVA_OPTS="${JAVA_OPTS} -Dorg.killbill.dao.maxActive=80"
+JAVA_OPTS="${JAVA_OPTS} -Dorg.killbill.billing.osgi.dao.maxActive=50"
+JAVA_OPTS="${JAVA_OPTS} -Dorg.killbill.billing.osgi.dao.connectionTimeout=5s"
+
+JAVA_OPTS="${JAVA_OPTS} -Dorg.killbill.payment.plugin.threads.nb=60"
 ```
+
+```xml
+    <Connector port="8080" protocol="HTTP/1.1"
+               URIEncoding="UTF-8"
+               redirectPort="8443"
+               maxThreads="100"
+               acceptCount="50"
+               acceptorThreadCount="2"
+               connectionTimeout="10000"
+               keepAliveTimeout="5000"
+               maxKeepAliveRequests="100" />
+```
+
+- KB configuration is capable of handling 50 concurrent gate-way requests
+- at a rate around 25k-30k transactions per hour with a response < 10s response
+  NOTE: real-world numbers are expected to be better
+- dedicated MySQL RDS (db.m3.medium) instance was used during tests
+  * expect a "medium" MySQL CPU utilization at peaks ~ 50-60%
+
+**[run-08_1][run-08_1.md]** results :
+
+|                                 | #count | average | median | 90% |  min |   max |   errors | bandwidth |
+| ------------------------------- | ------ | ------- | ------ | --- | ---- | ----- | -------- | --------- |
+|                           TOTAL | 107255 |    6708 |   6689 |   0 |   18 | 13315 | 0.00000% |    6.33/s |
+
+**[run-09_6][run-09_6.md]** results :
+
+|                                 | #count | average | median | 90% |  min |   max |   errors | bandwidth |
+| ------------------------------- | ------ | ------- | ------ | --- | ---- | ----- | -------- | --------- |
+|                           TOTAL | 108407 |    6637 |   6620 |   0 |   11 | 12237 | 0.00000% |     6.4/s |
 
 
 #### t2.small (1 CPU cores, 2GB)
@@ -153,8 +213,6 @@ JAVA_OPTS="${JAVA_OPTS} -XX:+UseConcMarkSweepGC"
 JAVA_OPTS="${JAVA_OPTS} -Xms1024m -Xmx1536m -XX:PermSize=96m -XX:MaxPermSize=160m"
 
 JAVA_OPTS="${JAVA_OPTS} -XX:CompileThreshold=7000"
-
-#JAVA_OPTS="${JAVA_OPTS} -Djruby.compile.fastest=true"
 
 ### KB: database setup
 #JAVA_OPTS="${JAVA_OPTS} -Dorg.killbill.dao.url=jdbc:mysql://${KB_DB_HOST}:3306/killbill"
